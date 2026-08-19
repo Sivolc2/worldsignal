@@ -1,0 +1,21 @@
+{
+  "id": "6d0bd97f-62fa-442c-b8a6-1e52b326972c",
+  "timestamp": "2026-08-19T23:24:05.447024+00:00",
+  "source": "github",
+  "title": "scikit-learn/scikit-learn: scikit-learn: machine learning in Python",
+  "url": "https://github.com/scikit-learn/scikit-learn",
+  "summary": "Stars: 66973, Language: Python, Topics: data-analysis, data-science, machine-learning, python, statistics. scikit-learn: machine learning in Python",
+  "relevance": null,
+  "tags": [
+    "data-analysis",
+    "data-science",
+    "machine-learning",
+    "python",
+    "statistics"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "4ac9697f-6cb2-413b-8f08-8b99e8c6a8d6",
+  "timestamp": "2026-08-19T23:24:01.073977+00:00",
+  "source": "arxiv",
+  "title": "Dynamic Compression in Recurrent Networks",
+  "url": "https://arxiv.org/abs/2608.17896v1",
+  "summary": "Recurrent models process long contexts efficiently by compressing their history into a fixed-size state, but modern architectures typically do so in a single causal pass over the sequence. Each input must therefore be compressed before the model knows how it will later be used, forcing a limited state to compromise across possible future demands. We introduce dynamic compression, which allows a recurrent model to selectively revisit past tokens and revise its fixed-size state through additional ",
+  "relevance": null,
+  "tags": [
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

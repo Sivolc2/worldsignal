@@ -1,0 +1,18 @@
+{
+  "id": "ec5ccb4d-5e07-47e3-b0be-efb1df84b5c1",
+  "timestamp": "2026-08-19T23:24:01.073711+00:00",
+  "source": "arxiv",
+  "title": "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
+  "url": "https://arxiv.org/abs/2608.18004v1",
+  "summary": "Probabilistic modeling of physical fields benefits from both a data-driven prior and known physical structure such as the governing equations. Energy-based models (EBMs) are a natural fit since energies compose additively, which enables augmenting physics information during inference. However, EBMs have been difficult to train and sample from due to the intractable partition function. We show in this work that flow matching models with a potential-induced velocity yield an explicit scalar energy",
+  "relevance": null,
+  "tags": [
+    "cs.LG",
+    "physics.comp-ph"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

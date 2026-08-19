@@ -1,0 +1,26 @@
+{
+  "id": "4f7754b2-739a-41d0-a019-acfd93eaa96e",
+  "timestamp": "2026-08-19T23:24:05.045800+00:00",
+  "source": "github",
+  "title": "ollama/ollama: Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "url": "https://github.com/ollama/ollama",
+  "summary": "Stars: 178983, Language: Go, Topics: deepseek, gemma, gemma3, glm, go. Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "relevance": null,
+  "tags": [
+    "deepseek",
+    "gemma",
+    "gemma3",
+    "glm",
+    "go",
+    "golang",
+    "gpt-oss",
+    "llama",
+    "llama3",
+    "llm"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

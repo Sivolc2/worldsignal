@@ -1,0 +1,21 @@
+{
+  "id": "ca376818-192b-42f9-b93c-a205fdd65b1c",
+  "timestamp": "2026-08-19T23:24:01.073531+00:00",
+  "source": "arxiv",
+  "title": "Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction",
+  "url": "https://arxiv.org/abs/2608.18055v1",
+  "summary": "Reliable quantitative analysis of dynamic contrast-enhanced MRI requires high-quality spatiotemporal reconstructions at high undersampling rates. Scan-specific reconstructions using Gaussian and Gabor primitives have shown promising results without the need for large training datasets, but have not addressed the additional dimension of dynamic contrast. We propose a multi-dimensional, primitive based framework for dynamic contrast-enhanced MRI reconstruction that disentangles the underlying anat",
+  "relevance": null,
+  "tags": [
+    "eess.IV",
+    "cs.CV",
+    "cs.LG",
+    "eess.SP",
+    "physics.med-ph"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

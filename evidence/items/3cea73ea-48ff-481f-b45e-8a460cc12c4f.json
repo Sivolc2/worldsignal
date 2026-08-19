@@ -1,0 +1,26 @@
+{
+  "id": "3cea73ea-48ff-481f-b45e-8a460cc12c4f",
+  "timestamp": "2026-08-19T23:24:05.045826+00:00",
+  "source": "github",
+  "title": "huggingface/transformers: \ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+  "url": "https://github.com/huggingface/transformers",
+  "summary": "Stars: 164269, Language: Python, Topics: audio, deep-learning, deepseek, gemma, glm. \ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+  "relevance": null,
+  "tags": [
+    "audio",
+    "deep-learning",
+    "deepseek",
+    "gemma",
+    "glm",
+    "hacktoberfest",
+    "llm",
+    "machine-learning",
+    "model-hub",
+    "natural-language-processing"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

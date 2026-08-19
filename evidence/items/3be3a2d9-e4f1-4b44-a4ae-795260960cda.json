@@ -1,0 +1,17 @@
+{
+  "id": "3be3a2d9-e4f1-4b44-a4ae-795260960cda",
+  "timestamp": "2026-08-19T23:23:57.901804+00:00",
+  "source": "arxiv",
+  "title": "Write, Execute, Refine: From Skill Followers to Skill Optimizers via Reinforcement Learning from Execution Feedback",
+  "url": "https://arxiv.org/abs/2608.17587v1",
+  "summary": "Expert-written natural language skills can improve tool-using agents, yet agent-authored skills perform 8-11 points worse than using no skill. This gap suggests that following procedural guidance and improving it from execution evidence are distinct capabilities. Inference time loops can repair skills but do not improve the model that writes the next one. We study how to organize execution experience from intermediate skills into training states for an optimizer. We introduce WER (Write, Execute",
+  "relevance": null,
+  "tags": [
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

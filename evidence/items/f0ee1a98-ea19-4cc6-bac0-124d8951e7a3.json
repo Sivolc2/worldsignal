@@ -1,0 +1,17 @@
+{
+  "id": "f0ee1a98-ea19-4cc6-bac0-124d8951e7a3",
+  "timestamp": "2026-08-19T23:23:57.901573+00:00",
+  "source": "arxiv",
+  "title": "CABLE: Extending the Reach of Memory Retrieval via Complementary Antecedent-Based Linking and Expansion",
+  "url": "https://arxiv.org/abs/2608.17911v1",
+  "summary": "As LLM agents operate across structured workflows and sessions, preserving long-term history does not ensure that later contexts can recover relevant evidence through a bounded memory interface. We study this evidence-reachability problem in long-term conversational memory, where retrieval still relies heavily on semantic similarity. This works well for topical recall, but it often misses earlier experiences, plans, or motivations that are semantically distant from the later events they help exp",
+  "relevance": null,
+  "tags": [
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "a1655c76-b5c9-4b76-98f6-2f8bad5cf295",
+  "timestamp": "2026-08-19T23:23:57.901416+00:00",
+  "source": "arxiv",
+  "title": "Language Has Two Parameters: Narrative-Induced Semantic Plasticity and Phase-Sensitive Interpretation",
+  "url": "https://arxiv.org/abs/2608.18041v1",
+  "summary": "Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every writer in the corpus together. This paper claims a second parameter, phase, which signed weights learned from a corpus do not supply. Phase exists only between meanings: it determines how coactivated meanings combine, and it can reverse what a meaning contributes while that meaning stays fully present.",
+  "relevance": null,
+  "tags": [
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

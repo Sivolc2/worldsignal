@@ -1,0 +1,26 @@
+{
+  "id": "e0d4577c-23b9-4272-93b5-d4875f3a428a",
+  "timestamp": "2026-08-19T23:24:04.698505+00:00",
+  "source": "github",
+  "title": "FlowiseAI/Flowise: Build AI Agents, Visually",
+  "url": "https://github.com/FlowiseAI/Flowise",
+  "summary": "Stars: 55382, Language: TypeScript, Topics: agentic-ai, agentic-workflow, agents, artificial-intelligence, chatbot. Build AI Agents, Visually",
+  "relevance": null,
+  "tags": [
+    "agentic-ai",
+    "agentic-workflow",
+    "agents",
+    "artificial-intelligence",
+    "chatbot",
+    "chatgpt",
+    "javascript",
+    "langchain",
+    "large-language-models",
+    "low-code"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

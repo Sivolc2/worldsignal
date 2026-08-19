@@ -1,0 +1,17 @@
+{
+  "id": "59f0d69c-a9db-4fc1-b54c-d7035a9c3c46",
+  "timestamp": "2026-08-19T23:23:57.901632+00:00",
+  "source": "arxiv",
+  "title": "From Global Benchmarks to Local Evaluations: Benchmarking LLMs for the German Public Sector",
+  "url": "https://arxiv.org/abs/2608.17827v1",
+  "summary": "Public institutions face a persistent challenge in selecting LLMs suited to their specific context. Existing benchmarks, however, are of limited use as they primarily reflect English-language and US-centric settings, and often only evaluate task performance. In this paper, we present first results of M\u00d6VE, a holistic evaluation framework for the German public sector, examining three rarely considered governance dimensions: energy consumption, provider transparency, and knowledge of German-party ",
+  "relevance": null,
+  "tags": [
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

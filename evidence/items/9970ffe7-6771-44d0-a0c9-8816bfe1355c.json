@@ -1,0 +1,19 @@
+{
+  "id": "9970ffe7-6771-44d0-a0c9-8816bfe1355c",
+  "timestamp": "2026-08-19T23:23:57.901737+00:00",
+  "source": "arxiv",
+  "title": "What Aggregate Scores Miss: Measuring Item-Level Regressions in Commercial LLM API Migrations",
+  "url": "https://arxiv.org/abs/2608.17719v1",
+  "summary": "Context: Software systems that depend on commercial large language model APIs must migrate to successor versions when vendors deprecate older models. Migration decisions typically rely on aggregate benchmark scores, which compress heterogeneous item-level behaviour into a single net figure. Objective: We measure what that compression conceals. Method: On three pairwise upgrades in the GPT-5.4 to GPT-5.6 Sol product sequence, we query 900 public benchmark items (graduate-level knowledge, olympiad",
+  "relevance": null,
+  "tags": [
+    "cs.SE",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

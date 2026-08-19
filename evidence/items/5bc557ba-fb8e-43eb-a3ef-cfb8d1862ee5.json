@@ -1,0 +1,18 @@
+{
+  "id": "5bc557ba-fb8e-43eb-a3ef-cfb8d1862ee5",
+  "timestamp": "2026-08-19T23:23:54.733263+00:00",
+  "source": "arxiv",
+  "title": "Comparative Study of Out-of-the-Box Technology for Automatic Target Detection and Recognition",
+  "url": "https://arxiv.org/abs/2608.17917v1",
+  "summary": "Automatic Target Detection and Recognition (ATD/R) is critical for military decision support and (semi-)autonomous operations. Recent advances in object detection and artificial intelligence (AI) significantly boosted the potential performance of ATD/R. However, the scarcity of publicly available military datasets limits the application of these systems. As a solution, this paper explores the use of publicly available models and civilian datasets to achieve reasonable performance in military con",
+  "relevance": null,
+  "tags": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

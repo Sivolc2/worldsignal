@@ -35,6 +35,50 @@ Three layers, in order of priority:
 
 The digest feeds the evidence store. The evidence store renders as the map.
 
+## Running the pipeline
+
+### Quick run (full pipeline)
+```bash
+bash run.sh          # ingest all sources → sync to vector store → generate digest
+bash run.sh ingest   # just ingestion
+bash run.sh sync     # just vector store sync
+bash run.sh digest   # just digest generation
+```
+
+### Using subagents for parallel work
+
+When operating autonomously, use the Agent tool to parallelize:
+
+**Parallel ingestion** — launch one subagent per source:
+- Agent 1: `cd /home/ec2-user/worldsignal && python3 src/ingest_arxiv.py`
+- Agent 2: `cd /home/ec2-user/worldsignal && python3 src/ingest_github.py`
+- Agent 3: `cd /home/ec2-user/worldsignal && python3 src/ingest_podcasts.py`
+
+**Sequential steps** (must wait for ingestion):
+- After all ingestion agents complete: `python3 src/evidence_store.py`
+- After sync: `python3 src/generate_digest.py`
+
+**Deeper analysis** — use subagents for:
+- Querying the vector store for clusters around a topic
+- Researching a specific signal in depth (web search)
+- Updating the hypothesis map based on new evidence patterns
+- Drafting governance proposals when signals suggest scope changes
+
+### Architecture
+
+```
+src/
+  ingest_arxiv.py      — arXiv cs.AI/CL/LG recent papers
+  ingest_github.py     — GitHub trending AI/ML repos via search API
+  ingest_podcasts.py   — Dwarkesh + Moonshot via RSS
+  evidence_store.py    — ChromaDB vector store (sync + query)
+  generate_digest.py   — Claude API synthesis → morning digest
+```
+
+Evidence items are JSON files in `evidence/items/`. Schema in `evidence/.schema.md`.
+Vector store persists in `evidence/chromadb/` (gitignored).
+Digests output to `digest/YYYY-MM-DD.md`.
+
 ## Key rules
 
 - Never build outside the contract's scope without steward approval

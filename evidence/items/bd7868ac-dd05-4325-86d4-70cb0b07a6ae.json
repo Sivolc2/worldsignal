@@ -1,0 +1,26 @@
+{
+  "id": "bd7868ac-dd05-4325-86d4-70cb0b07a6ae",
+  "timestamp": "2026-08-19T23:24:05.045834+00:00",
+  "source": "github",
+  "title": "langgenius/dify: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to produ",
+  "url": "https://github.com/langgenius/dify",
+  "summary": "Stars: 152921, Language: TypeScript, Topics: agent, agentic-ai, agentic-framework, agentic-workflow, ai. Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "relevance": null,
+  "tags": [
+    "agent",
+    "agentic-ai",
+    "agentic-framework",
+    "agentic-workflow",
+    "ai",
+    "automation",
+    "claude",
+    "genai",
+    "gpt",
+    "llm"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "13b9e385-46e7-4ac9-903c-332b896f3943",
+  "timestamp": "2026-08-19T23:23:54.733242+00:00",
+  "source": "arxiv",
+  "title": "A Theoretical Framework for Parallel Lifelong MAPF Using Group Decentralized Planning",
+  "url": "https://arxiv.org/abs/2608.17928v1",
+  "summary": "In the Lifelong Multi-Agent Path Finding (L-MAPF) problem, agents must repeatedly move from one destination to another while avoiding obstacles and inter-agent collisions. Widely regarded as one of the highest-performing solutions to this problem is the Rolling-Horizon Collision Resolution (RHCR) framework. However, commensurate with its quality solutions, it incurs a computational cost that limits its applicability to even modest agent counts. In this paper, leveraging theoretical methods from ",
+  "relevance": null,
+  "tags": [
+    "cs.MA",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

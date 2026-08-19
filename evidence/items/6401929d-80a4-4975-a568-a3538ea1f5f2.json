@@ -1,0 +1,24 @@
+{
+  "id": "6401929d-80a4-4975-a568-a3538ea1f5f2",
+  "timestamp": "2026-08-19T23:24:05.446961+00:00",
+  "source": "github",
+  "title": "tensorflow/tensorflow: An Open Source Machine Learning Framework for Everyone",
+  "url": "https://github.com/tensorflow/tensorflow",
+  "summary": "Stars: 197068, Language: C++, Topics: deep-learning, deep-neural-networks, distributed, machine-learning, ml. An Open Source Machine Learning Framework for Everyone",
+  "relevance": null,
+  "tags": [
+    "deep-learning",
+    "deep-neural-networks",
+    "distributed",
+    "machine-learning",
+    "ml",
+    "neural-network",
+    "python",
+    "tensorflow"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

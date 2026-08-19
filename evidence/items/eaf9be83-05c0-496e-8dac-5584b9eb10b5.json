@@ -1,0 +1,19 @@
+{
+  "id": "eaf9be83-05c0-496e-8dac-5584b9eb10b5",
+  "timestamp": "2026-08-19T23:23:54.733070+00:00",
+  "source": "arxiv",
+  "title": "Why GPT-Style Models Do Not Directly Transfer to Symbolic Music: Compression in the Wrong Coordinate System",
+  "url": "https://arxiv.org/abs/2608.18025v1",
+  "summary": "GPT-style models achieve strong performance by representing language with finite vocabularies of reusable discrete tokens. This success has motivated symbolic music tokenizations to treat recurring musical structures, such as chords, motifs, and phrases, as reusable units analogous to linguistic tokens. However, tokenization derives its advantage not from reusable combinations alone, but from compression: effective compression requires coordinates in which recurring regularities form stable and ",
+  "relevance": null,
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.SD"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "6ccfee63-21c4-44f7-bb14-55c20e105ec2",
+  "timestamp": "2026-08-19T23:23:54.733009+00:00",
+  "source": "arxiv",
+  "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+  "url": "https://arxiv.org/abs/2608.18066v1",
+  "summary": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple runs to quantify variance, and (2) randomly shuffling the tasks to i",
+  "relevance": null,
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

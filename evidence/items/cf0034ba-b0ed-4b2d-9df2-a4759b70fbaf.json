@@ -1,0 +1,18 @@
+{
+  "id": "cf0034ba-b0ed-4b2d-9df2-a4759b70fbaf",
+  "timestamp": "2026-08-19T23:23:54.733124+00:00",
+  "source": "arxiv",
+  "title": "Dual Co-Train: Cross-Dataset Ultrasound Tongue Segmentation Under Extreme Data Scarcity",
+  "url": "https://arxiv.org/abs/2608.17983v1",
+  "summary": "Ultrasound tongue contour segmentation remains challenging under cross-dataset domain shift, where limited annotations, probe variability, and acquisition noise often degrade model generalization. We present a source-free domain adaptation framework for robust ultrasound tongue segmentation built on a lightweight UltraUNet backbone. Starting from a checkpoint pretrained on only five labeled source images, simulating an underfitted constrained source model, the proposed method adapts to a fully-u",
+  "relevance": null,
+  "tags": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

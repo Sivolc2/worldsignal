@@ -1,0 +1,18 @@
+{
+  "id": "d36ab5a6-6905-4221-b079-00f635d8c42a",
+  "timestamp": "2026-08-19T23:24:01.073995+00:00",
+  "source": "arxiv",
+  "title": "A Residual Learning Approach for Unsteady Aerodynamic Load Prediction",
+  "url": "https://arxiv.org/abs/2608.17894v1",
+  "summary": "This paper investigates the feasibility of using residual learning to improve unsteady aerodynamic load prediction for aeroelastic applications. The machine learning technique selected for the study is the long short-term memory (LSTM) neural network, which is used for its suitability for sequential data with aerodynamic memory effects. The approach is investigated for the NLR 7301 airfoil benchmark using high-fidelity CFD lift data for prescribed pitch and plunge motions in the transonic flow r",
+  "relevance": null,
+  "tags": [
+    "physics.flu-dyn",
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

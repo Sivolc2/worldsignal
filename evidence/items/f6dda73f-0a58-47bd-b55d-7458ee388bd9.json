@@ -1,0 +1,18 @@
+{
+  "id": "f6dda73f-0a58-47bd-b55d-7458ee388bd9",
+  "timestamp": "2026-08-19T23:23:54.733284+00:00",
+  "source": "arxiv",
+  "title": "BEAR-Bench: A Bilingual Enterprise and Academic Reasoning Benchmark for Multimodal Models",
+  "url": "https://arxiv.org/abs/2608.17895v1",
+  "summary": "While Multimodal Large Language Models (MLLMs) have made significant strides in visual comprehension, their ability to reason about text-dense, professional documents remains incompletely evaluated. Existing benchmarks emphasize information extraction, require external domain knowledge, or cover professional documents only as one of many settings. They are also largely English- or Chinese-centric, leaving other languages and Russian, in particular, substantially underrepresented. To address thes",
+  "relevance": null,
+  "tags": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

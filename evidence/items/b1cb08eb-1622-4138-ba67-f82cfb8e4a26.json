@@ -1,0 +1,18 @@
+{
+  "id": "b1cb08eb-1622-4138-ba67-f82cfb8e4a26",
+  "timestamp": "2026-08-19T23:24:01.073626+00:00",
+  "source": "arxiv",
+  "title": "TabNSM: Neural Sparse Mixer for Tabular Regression",
+  "url": "https://arxiv.org/abs/2608.18026v1",
+  "summary": "Large-scale, high-dimensional tabular regression remains challenging: tree-based models are robust but lack end-to-end representation learning, while deep models enable flexible feature learning but often incur costly interaction modeling and sensitivity to noisy or redundant features. We propose TabNSM, a scalable regression framework that extends our earlier sparse-attention and mixer architectures. At its core, the Adaptive Sparse Interaction Module (ASIM) integrates foreground feature discov",
+  "relevance": null,
+  "tags": [
+    "cs.LG",
+    "cs.CE"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

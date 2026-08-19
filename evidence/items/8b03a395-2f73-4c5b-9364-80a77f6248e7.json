@@ -1,0 +1,24 @@
+{
+  "id": "8b03a395-2f73-4c5b-9364-80a77f6248e7",
+  "timestamp": "2026-08-19T23:24:05.821685+00:00",
+  "source": "github",
+  "title": "streamlit/streamlit: Streamlit \u2014 A faster way to build and share data apps.",
+  "url": "https://github.com/streamlit/streamlit",
+  "summary": "Stars: 45574, Language: Python, Topics: data-analysis, data-science, data-visualization, deep-learning, developer-tools. Streamlit \u2014 A faster way to build and share data apps.",
+  "relevance": null,
+  "tags": [
+    "data-analysis",
+    "data-science",
+    "data-visualization",
+    "deep-learning",
+    "developer-tools",
+    "machine-learning",
+    "python",
+    "streamlit"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

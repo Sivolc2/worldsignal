@@ -1,0 +1,17 @@
+{
+  "id": "daf666e7-6cbb-418d-97e7-88134e1f07c9",
+  "timestamp": "2026-08-19T23:24:01.073754+00:00",
+  "source": "arxiv",
+  "title": "Recirculation",
+  "url": "https://arxiv.org/abs/2608.17981v1",
+  "summary": "We describe an inference-time architectural enhancement for off-the-shelf foundation models that markedly reduces perplexity and boosts accuracy across generation and reasoning tasks. Our approach incurs essentially no additional latency during generation, though it requires serial processing in the prefill phase. Motivated by the fundamental limitation that state updates in feedforward transformers are bounded by model depth, our technique, recirculation, introduces a specific form of recurrenc",
+  "relevance": null,
+  "tags": [
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "77603b28-2c45-427c-b948-966c190408d3",
+  "timestamp": "2026-08-19T23:24:05.045771+00:00",
+  "source": "github",
+  "title": "NousResearch/hermes-agent: The agent that grows with you",
+  "url": "https://github.com/NousResearch/hermes-agent",
+  "summary": "Stars: 233036, Language: Python, Topics: ai, ai-agent, ai-agents, anthropic, chatgpt. The agent that grows with you",
+  "relevance": null,
+  "tags": [
+    "ai",
+    "ai-agent",
+    "ai-agents",
+    "anthropic",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "codex",
+    "hermes",
+    "hermes-agent"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

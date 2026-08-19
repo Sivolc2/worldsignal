@@ -1,0 +1,19 @@
+{
+  "id": "f2adeaee-1510-495f-84d6-72979b8f5f63",
+  "timestamp": "2026-08-19T23:23:57.901645+00:00",
+  "source": "arxiv",
+  "title": "Interpretable Humans, Alien LLMs: Expert Analysis of Latent Structures in Assessment Responses",
+  "url": "https://arxiv.org/abs/2608.17810v1",
+  "summary": "The evaluation of large language models (LLMs) relies heavily on human-designed assessments, implicitly assuming that AI and humans employ similar underlying cognitive constructs. Challenging this assumption, we investigate whether the latent factors governing LLM performance carry the same substantive, human-interpretable meaning as the cognitive constructs governing human learners. Using responses from humans and six LLMs across quantitative reasoning and chemistry assessments, we conducted Ex",
+  "relevance": null,
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.HC"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

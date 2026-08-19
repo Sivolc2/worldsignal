@@ -1,0 +1,26 @@
+{
+  "id": "74ad6256-c2ca-49b1-86f4-7a43022ccb7d",
+  "timestamp": "2026-08-19T23:24:05.821668+00:00",
+  "source": "github",
+  "title": "ultralytics/yolov5: Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.",
+  "url": "https://github.com/ultralytics/yolov5",
+  "summary": "Stars: 57905, Language: Python, Topics: computer-vision, coreml, deep-learning, image-classification, inference. Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.",
+  "relevance": null,
+  "tags": [
+    "computer-vision",
+    "coreml",
+    "deep-learning",
+    "image-classification",
+    "inference",
+    "instance-segmentation",
+    "model-export",
+    "model-training",
+    "object-detection",
+    "onnx"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

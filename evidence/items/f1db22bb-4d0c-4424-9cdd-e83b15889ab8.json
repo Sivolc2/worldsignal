@@ -1,0 +1,19 @@
+{
+  "id": "f1db22bb-4d0c-4424-9cdd-e83b15889ab8",
+  "timestamp": "2026-08-19T23:23:54.733135+00:00",
+  "source": "arxiv",
+  "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+  "url": "https://arxiv.org/abs/2608.17965v1",
+  "summary": "Online log anomaly detection is critical for maintaining the reliability of large-scale computing systems. Although recent language model-based log anomaly detectors achieve strong detection performance, their confidence estimates remain poorly calibrated. We show that these detectors frequently assign excessive confidence to incorrect predictions, particularly for anomalous logs under severe class imbalance. Moreover, confidence on erroneous predictions remains persistently high even when conve",
+  "relevance": null,
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.SE"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "40e0d353-008a-40c0-a054-ff53bacf4709",
+  "timestamp": "2026-08-19T23:23:54.733313+00:00",
+  "source": "arxiv",
+  "title": "AdaLens: Interactive Storyline for Monitoring and Steering Long-Running Agentic Data Analysis",
+  "url": "https://arxiv.org/abs/2608.17834v1",
+  "summary": "Large language models are pushing data science toward increasingly autonomous and agentic workflows, with recent systems already supporting multi-step and long-running analyses. As these workflows become more autonomous, conventional interfaces no longer provide adequate support for two critical requirements: observability for understanding an agent's evolving reasoning and evidence, and steerability for redirecting low-value directions or deepening promising ones during execution. Existing inte",
+  "relevance": null,
+  "tags": [
+    "cs.HC",
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

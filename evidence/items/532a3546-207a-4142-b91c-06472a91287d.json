@@ -1,0 +1,18 @@
+{
+  "id": "532a3546-207a-4142-b91c-06472a91287d",
+  "timestamp": "2026-08-19T23:23:54.733221+00:00",
+  "source": "arxiv",
+  "title": "Collective Counterfactual Planning: Coordination, Consent, and Verification under Representational Constraints",
+  "url": "https://arxiv.org/abs/2608.17932v1",
+  "summary": "Groups routinely complete projects that no single member can plan, execute, or verify alone. We propose a formal model of this phenomenon, Collective Counterfactual Planning (CCP), in which the binding limitation on each agent is neither capability, knowledge, nor observability, but representational geometry: each agent perceives the state, conceives moves, consents to actions, and certifies goal requirements only through a projection onto an agent-specific subspace of a common task space. Four ",
+  "relevance": null,
+  "tags": [
+    "cs.MA",
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

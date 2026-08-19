@@ -1,0 +1,17 @@
+{
+  "id": "9dd6c73b-24ad-4afb-8e92-7e8b1a7443b0",
+  "timestamp": "2026-08-19T23:23:54.733046+00:00",
+  "source": "arxiv",
+  "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
+  "url": "https://arxiv.org/abs/2608.18050v1",
+  "summary": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product. We formulate this as a workspace-state contract: every view should be explicitly tied to a version of the evolving workspace state. Coding agents partly a",
+  "relevance": null,
+  "tags": [
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

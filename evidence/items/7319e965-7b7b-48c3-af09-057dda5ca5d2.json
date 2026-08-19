@@ -1,0 +1,18 @@
+{
+  "id": "7319e965-7b7b-48c3-af09-057dda5ca5d2",
+  "timestamp": "2026-08-19T23:23:54.733232+00:00",
+  "source": "arxiv",
+  "title": "Adaptive Policy Portfolios for Robust Markov Decision Processes",
+  "url": "https://arxiv.org/abs/2608.17929v1",
+  "summary": "Robust Markov decision processes optimize one policy against a set of plausible transition functions. This can be conservative when the unknown dynamics are fixed and become partially identifiable after deployment. We study adaptive policy portfolios: finite sets of memoryless randomized policies synthesized offline and paired with a lightweight online selector. Robust regret is a natural measure of portfolio quality: for each plausible environment, it measures the loss of the best portfolio mem",
+  "relevance": null,
+  "tags": [
+    "cs.AI",
+    "cs.LO"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

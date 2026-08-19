@@ -1,0 +1,26 @@
+{
+  "id": "892f8be3-805b-43fb-8580-4a9d13e60301",
+  "timestamp": "2026-08-19T23:24:05.447039+00:00",
+  "source": "github",
+  "title": "ultralytics/ultralytics: Ultralytics YOLO26, YOLO11, YOLOv8 \u2014 object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
+  "url": "https://github.com/ultralytics/ultralytics",
+  "summary": "Stars: 60772, Language: Python, Topics: computer-vision, deep-learning, image-classification, instance-segmentation, machine-learning. Ultralytics YOLO26, YOLO11, YOLOv8 \u2014 object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
+  "relevance": null,
+  "tags": [
+    "computer-vision",
+    "deep-learning",
+    "image-classification",
+    "instance-segmentation",
+    "machine-learning",
+    "object-detection",
+    "object-tracking",
+    "pose-estimation",
+    "python",
+    "pytorch"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

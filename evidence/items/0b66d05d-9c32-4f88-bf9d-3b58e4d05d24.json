@@ -1,0 +1,17 @@
+{
+  "id": "0b66d05d-9c32-4f88-bf9d-3b58e4d05d24",
+  "timestamp": "2026-08-19T23:24:01.074076+00:00",
+  "source": "arxiv",
+  "title": "Leveraging Association Context Retrieval in Knowledge Edit- ing to Build White-Box Attacks on LLMs",
+  "url": "https://arxiv.org/abs/2608.17836v1",
+  "summary": "As large language models (LLMs) are granted increasing autonomy, it is essential to investigate methods that can induce unsafe behavior. We propose a novel white-box attack inspired by locate-then-edit approaches from the field of Knowledge Editing. Our choice is motivated by the observation that models edited with such schemes tend to assign unusually high prediction probabilities to the edit target, a property that is particularly advantageous when designing attacks. We modify the editing fram",
+  "relevance": null,
+  "tags": [
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

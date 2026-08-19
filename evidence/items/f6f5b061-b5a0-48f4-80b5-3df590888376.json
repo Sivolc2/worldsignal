@@ -1,0 +1,20 @@
+{
+  "id": "f6f5b061-b5a0-48f4-80b5-3df590888376",
+  "timestamp": "2026-08-19T23:24:01.074053+00:00",
+  "source": "arxiv",
+  "title": "Toward the Optimal Regret-Instability Trade-off in Multi-Armed Bandits",
+  "url": "https://arxiv.org/abs/2608.17841v1",
+  "summary": "Multi-armed bandit algorithms are evaluated by regret, yet comparable regret can coexist with different allocations across independent runs. We study the trade-off between worst-case regret $\\mathcal{R}_{K,T}$ and instability $\\mathcal S_{K,T}$, defined as the largest standard deviation of a terminal pull count, for $K$ arms and $T$ rounds. We prove the finite-time lower bound $\\mathcal R_{K,T}\\mathcal S_{K,T}\\ge C T^{3/2}$, where $C$ is independent of $K$ and $T$, under a finite-time regret con",
+  "relevance": null,
+  "tags": [
+    "stat.ML",
+    "cs.LG",
+    "math.OC",
+    "math.ST"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

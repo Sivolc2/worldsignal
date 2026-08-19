@@ -1,0 +1,18 @@
+{
+  "id": "dbef7b44-9ab3-4a07-aeb3-dabeb43ec466",
+  "timestamp": "2026-08-19T23:23:54.733273+00:00",
+  "source": "arxiv",
+  "title": "AutoResearch: Insight In, Hallucination Out",
+  "url": "https://arxiv.org/abs/2608.17906v1",
+  "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does not ensure that the resulting process remains scientifically grounded. We introduce AutoResearch, a two-stage system that connects Idea Generation with Idea Execution to address both how research ideas are formed and how they are reliably established through experimentation. In Idea Generation, AutoResearch continuously integrates emerging research signals with accumulated domain ",
+  "relevance": null,
+  "tags": [
+    "cs.AI",
+    "cs.MA"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "c1bf3c63-4057-40f9-b2aa-acd2ae55befd",
+  "timestamp": "2026-08-19T23:24:05.447010+00:00",
+  "source": "github",
+  "title": "netdata/netdata: The fastest path to AI-powered full stack observability, even for lean teams.",
+  "url": "https://github.com/netdata/netdata",
+  "summary": "Stars: 80233, Language: Go, Topics: ai, alerting, cncf, data-visualization, database. The fastest path to AI-powered full stack observability, even for lean teams.",
+  "relevance": null,
+  "tags": [
+    "ai",
+    "alerting",
+    "cncf",
+    "data-visualization",
+    "database",
+    "devops",
+    "docker",
+    "grafana",
+    "influxdb",
+    "kubernetes"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

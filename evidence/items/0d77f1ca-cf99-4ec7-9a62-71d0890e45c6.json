@@ -1,0 +1,26 @@
+{
+  "id": "0d77f1ca-cf99-4ec7-9a62-71d0890e45c6",
+  "timestamp": "2026-08-19T23:24:04.698529+00:00",
+  "source": "github",
+  "title": "simstudioai/sim: Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
+  "url": "https://github.com/simstudioai/sim",
+  "summary": "Stars: 29436, Language: TypeScript, Topics: agent-workflow, agentic-workflow, agents, ai, aiagents. Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
+  "relevance": null,
+  "tags": [
+    "agent-workflow",
+    "agentic-workflow",
+    "agents",
+    "ai",
+    "aiagents",
+    "anthropic",
+    "artificial-intelligence",
+    "automation",
+    "chatbot",
+    "deepseek"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

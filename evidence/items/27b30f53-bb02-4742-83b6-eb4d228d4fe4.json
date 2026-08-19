@@ -1,0 +1,26 @@
+{
+  "id": "27b30f53-bb02-4742-83b6-eb4d228d4fe4",
+  "timestamp": "2026-08-19T23:24:05.045845+00:00",
+  "source": "github",
+  "title": "open-webui/open-webui: User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+  "url": "https://github.com/open-webui/open-webui",
+  "summary": "Stars: 149270, Language: Python, Topics: ai, llm, llm-ui, llm-webui, llms. User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+  "relevance": null,
+  "tags": [
+    "ai",
+    "llm",
+    "llm-ui",
+    "llm-webui",
+    "llms",
+    "mcp",
+    "ollama",
+    "ollama-webui",
+    "open-webui",
+    "openai"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

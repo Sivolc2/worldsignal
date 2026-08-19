@@ -1,0 +1,17 @@
+{
+  "id": "b9c078a7-fc4d-48b7-9098-3447f411acc1",
+  "timestamp": "2026-08-19T23:24:01.073833+00:00",
+  "source": "arxiv",
+  "title": "Understanding the Surprising Generalization Properties of Tabular Foundation Models",
+  "url": "https://arxiv.org/abs/2608.17957v1",
+  "summary": "Tabular Foundation Models (TFMs) increasingly rely on in-context learning, where a model receives labelled examples at inference time and predicts labels for new inputs without updating its weights. Existing TFMs are typically trained on either massive synthetic corpora or very large collections of real datasets. In contrast, we show that surprisingly strong transfer can emerge from self-supervised pre-training on just a single real table. In this setting, we also find that tables tend to be eit",
+  "relevance": null,
+  "tags": [
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

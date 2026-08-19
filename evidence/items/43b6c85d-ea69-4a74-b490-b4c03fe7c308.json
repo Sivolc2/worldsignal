@@ -1,0 +1,17 @@
+{
+  "id": "43b6c85d-ea69-4a74-b490-b4c03fe7c308",
+  "timestamp": "2026-08-19T23:24:01.073669+00:00",
+  "source": "arxiv",
+  "title": "Revisiting WEASEL 2.0: Reproduction, Sensitivity, and an Adaptive Ensemble-Size Rule",
+  "url": "https://arxiv.org/abs/2608.18021v1",
+  "summary": "WEASEL 2.0 is a dictionary-based time series classifier that combines dilated sliding windows with a randomised hyperparameter ensemble and a fixed-size dense feature representation. Two of its hyperparameter choices, the maximum ensemble size and the maximum window size, are specified by simple thresholding rules whose chosen thresholds are not empirically justified in the original paper. In this work we reproduce WEASEL 2.0 on 114 UCR datasets, achieving a mean accuracy of 0.865 and median of ",
+  "relevance": null,
+  "tags": [
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

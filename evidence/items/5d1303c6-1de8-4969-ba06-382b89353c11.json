@@ -1,0 +1,17 @@
+{
+  "id": "5d1303c6-1de8-4969-ba06-382b89353c11",
+  "timestamp": "2026-08-19T23:23:57.901493+00:00",
+  "source": "arxiv",
+  "title": "When Writing Style Drifts: Benchmarking Authorship Verification under Distribution Shifts in Genre, Time and the AI-Era",
+  "url": "https://arxiv.org/abs/2608.17979v1",
+  "summary": "Authorship verification (AV) assumes that an author's writing style remains sufficiently stable to distinguish it from that of other writers. In practice, however, this assumption is challenged by distribution shifts caused by changes in genre, time, and AI-assisted writing. Existing AV benchmarks typically study these factors in isolation and focus predominantly on English, limiting our understanding of model robustness under realistic conditions. We introduce AVShift, the first German benchmar",
+  "relevance": null,
+  "tags": [
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

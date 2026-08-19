@@ -1,0 +1,17 @@
+{
+  "id": "58be1333-8146-4679-a865-4b6058b83f5b",
+  "timestamp": "2026-08-19T23:23:57.901704+00:00",
+  "source": "arxiv",
+  "title": "Preference Is Not Intervention: The Structure and Stability Boundaries of Reader-Specific Evidence Utility",
+  "url": "https://arxiv.org/abs/2608.17781v1",
+  "summary": "ML systems increasingly condition decisions on downstream model identity, but this is useful only if model-specific differences form reusable structure rather than input-local interactions. We test this in retrieval-augmented generation (RAG), where evidence utility can be measured under controlled interventions. Holding query, evidence, task, scoring, and intervention fixed, nine readers disagree on effect sign in 33\\% of jointly affected cells; reader$\\times$query interaction explains 29.8\\% o",
+  "relevance": null,
+  "tags": [
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

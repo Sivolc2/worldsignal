@@ -1,0 +1,26 @@
+{
+  "id": "edff8f0c-ae3e-4356-a5dc-228022c02e9a",
+  "timestamp": "2026-08-19T23:24:04.698512+00:00",
+  "source": "github",
+  "title": "Kong/kong: \ud83e\udd8d The API and AI Gateway",
+  "url": "https://github.com/Kong/kong",
+  "summary": "Stars: 44003, Language: Lua, Topics: ai, ai-gateway, api-gateway, api-management, apis. \ud83e\udd8d The API and AI Gateway",
+  "relevance": null,
+  "tags": [
+    "ai",
+    "ai-gateway",
+    "api-gateway",
+    "api-management",
+    "apis",
+    "artificial-intelligence",
+    "cloud-native",
+    "devops",
+    "kubernetes",
+    "kubernetes-ingress"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

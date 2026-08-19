@@ -1,0 +1,18 @@
+{
+  "id": "04b04914-0466-4407-b9f2-a43ba9395a21",
+  "timestamp": "2026-08-19T23:23:54.733201+00:00",
+  "source": "arxiv",
+  "title": "Grading Needs a Rubric, Not Intelligence",
+  "url": "https://arxiv.org/abs/2608.17938v1",
+  "summary": "Small language models can grade open-ended examination answers as reliably as substantially more expensive models when they grade against an explicit rubric. We test this claim as the design principle behind any-to-bench: a frontier model reads source documents once, at ingestion, to extract each question and its rubric; lower-cost models then perform all repeated grading work. We evaluate six cost-efficient model configurations from two model families at three reasoning-effort levels. Each conf",
+  "relevance": null,
+  "tags": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

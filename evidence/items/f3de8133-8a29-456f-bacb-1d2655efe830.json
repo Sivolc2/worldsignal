@@ -1,0 +1,21 @@
+{
+  "id": "f3de8133-8a29-456f-bacb-1d2655efe830",
+  "timestamp": "2026-08-19T23:24:05.821644+00:00",
+  "source": "github",
+  "title": "opencv/opencv: Open Source Computer Vision Library",
+  "url": "https://github.com/opencv/opencv",
+  "summary": "Stars: 90508, Language: C++, Topics: c-plus-plus, computer-vision, deep-learning, image-processing, opencv. Open Source Computer Vision Library",
+  "relevance": null,
+  "tags": [
+    "c-plus-plus",
+    "computer-vision",
+    "deep-learning",
+    "image-processing",
+    "opencv"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

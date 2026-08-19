@@ -1,0 +1,19 @@
+{
+  "id": "c95fdfd7-7efc-4d16-a143-04b311890e0d",
+  "timestamp": "2026-08-19T23:23:57.901557+00:00",
+  "source": "arxiv",
+  "title": "SpeechSense: A Paralinguistic-Focused Dataset for Fine-Grained Speech Sentiment Analysis",
+  "url": "https://arxiv.org/abs/2608.17931v1",
+  "summary": "Recent advances in AI have revolutionized speech processing, yet effective speech understanding requires discerning not just what is said, but how it is said. Speech Sentiment Analysis plays a critical role in decoding these paralinguistic cues for diverse real-world applications such as recruitment and customer service. However, existing Speech Sentiment Analysis research faces two primary limitations. First, dominant approaches rely on text-centric pipelines that cascade Automatic Speech Recog",
+  "relevance": null,
+  "tags": [
+    "cs.CL",
+    "cs.MM",
+    "cs.SD"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

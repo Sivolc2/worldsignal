@@ -1,0 +1,18 @@
+{
+  "id": "eb61593c-df99-4862-866d-eb02fdf6f4d3",
+  "timestamp": "2026-08-19T23:24:01.074034+00:00",
+  "source": "arxiv",
+  "title": "MoRAX: Mobility-based Representation Augmentation for Geospatial Foundation Models",
+  "url": "https://arxiv.org/abs/2608.17848v1",
+  "summary": "Geospatial Foundation Models (GFMs) are emerging as a powerful paradigm for learning semantically rich and geographically consistent visual and physical representations. However, their reliance on Earth-observation (EO) data leaves information about human activity largely underrepresented. Human mobility data reveals the functional and relational structure between regions that is missing from EO data, but is often limited only to the city where it is observed, making it challenging to use for tr",
+  "relevance": null,
+  "tags": [
+    "cs.LG",
+    "cs.SI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

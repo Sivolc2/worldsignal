@@ -1,0 +1,17 @@
+{
+  "id": "bf495275-05b8-4734-8b42-aae1d05a0569",
+  "timestamp": "2026-08-19T23:23:57.901660+00:00",
+  "source": "arxiv",
+  "title": "Whether LLMs Can Navigate Beliefs and Facts Depends on How You Phrase It",
+  "url": "https://arxiv.org/abs/2608.17809v1",
+  "summary": "Humans naturally form and express beliefs in daily communication, e.g., \"I think the answer is 3\" or \"I suppose that's right.\" Such beliefs inevitably intertwine with fact and knowledge, making the ability to handle them in tandem desirable for large language models (LLMs), as they are increasingly deployed in user-facing settings. Prior work showed that even capable LLMs exhibit a systemic weakness in acknowledging user beliefs grounded in incorrect information. We extend this evaluation to 10 ",
+  "relevance": null,
+  "tags": [
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

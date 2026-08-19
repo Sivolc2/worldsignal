@@ -1,0 +1,21 @@
+{
+  "id": "93f368b7-2c37-4845-a487-e885810ff096",
+  "timestamp": "2026-08-19T23:23:54.733056+00:00",
+  "source": "arxiv",
+  "title": "Harnessing Magnitude-Only and Complex Measurements for Improved Dynamic MRI Reconstruction with Learned Priors",
+  "url": "https://arxiv.org/abs/2608.18036v1",
+  "summary": "MRI reconstruction methods for undersampled k-space data naturally utilize complex-valued measurements. Parallel developments in sparse phase retrieval have shown that magnitude-only measurements may provide complementary information for signal recovery. However, their use in MRI reconstruction remains largely unexplored, due to lack of practical settings where informative magnitude measurements can be obtained without additional scan time. In this work, we investigate the use of auxiliary k-spa",
+  "relevance": null,
+  "tags": [
+    "eess.IV",
+    "cs.AI",
+    "cs.CV",
+    "cs.LG",
+    "physics.med-ph"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

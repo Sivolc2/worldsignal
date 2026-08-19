@@ -1,0 +1,19 @@
+{
+  "id": "0a762361-8444-4ae3-8b4b-ae5a7a4d9c2c",
+  "timestamp": "2026-08-19T23:23:57.901770+00:00",
+  "source": "arxiv",
+  "title": "MoNe: Modular Neural Memory for Efficient Long Context Inference",
+  "url": "https://arxiv.org/abs/2608.17616v1",
+  "summary": "We present MoNe, a lightweight modular neural memory that attaches to any frozen pretrained Transformer to enable long-context inference without retraining. MoNe reads context in fixed-size segments via test-time learning of fast-weight neural memory networks with layer-localized gradient updates; at inference, the memory generates keys and values from the query tokens alone, with no context tokens re-read. This two-phase design decouples inference cost from context length, achieving $O(N)$ prep",
+  "relevance": null,
+  "tags": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

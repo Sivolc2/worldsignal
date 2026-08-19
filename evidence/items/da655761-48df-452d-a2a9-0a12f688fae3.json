@@ -1,0 +1,26 @@
+{
+  "id": "da655761-48df-452d-a2a9-0a12f688fae3",
+  "timestamp": "2026-08-19T23:24:05.045809+00:00",
+  "source": "github",
+  "title": "firecrawl/firecrawl: The context API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+  "url": "https://github.com/firecrawl/firecrawl",
+  "summary": "Stars: 169628, Language: TypeScript, Topics: ai, ai-agents, ai-crawler, ai-scraping, ai-search. The context API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+  "relevance": null,
+  "tags": [
+    "ai",
+    "ai-agents",
+    "ai-crawler",
+    "ai-scraping",
+    "ai-search",
+    "crawler",
+    "data-extraction",
+    "html-to-markdown",
+    "llm",
+    "markdown"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

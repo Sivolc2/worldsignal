@@ -1,0 +1,18 @@
+{
+  "id": "d8c72209-f537-4fb0-9cf0-2908a4550980",
+  "timestamp": "2026-08-19T23:23:54.733101+00:00",
+  "source": "arxiv",
+  "title": "Traceable Trust for action-ready artificial intelligence in bioscience",
+  "url": "https://arxiv.org/abs/2608.17997v1",
+  "summary": "Artificial intelligence (AI) is becoming part of the working infrastructure of the biosciences. AI models can predict biomolecular structures, design proteins, rank variants, annotate images, recommend strains and optimise experimental conditions. We argue that the decision to use an AI output to guide laboratory action is a key juncture for trustworthy research and should follow a defined, reviewable process. We propose Traceable Trust as a proportionate assessment-and-design framework for this",
+  "relevance": null,
+  "tags": [
+    "cs.CY",
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

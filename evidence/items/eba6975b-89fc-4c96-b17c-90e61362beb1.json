@@ -1,0 +1,18 @@
+{
+  "id": "eba6975b-89fc-4c96-b17c-90e61362beb1",
+  "timestamp": "2026-08-19T23:23:54.733146+00:00",
+  "source": "arxiv",
+  "title": "Towards Zero-Shot Task Transfer with Neurosymbolic World Models",
+  "url": "https://arxiv.org/abs/2608.17959v1",
+  "summary": "State-of-the-art model-based reinforcement learning methods learn neural world models that allow policy improvement by planning in a latent space, without assumptions on the structure of the underlying environment. While expressive, these models are generally task-dependent: they learn uninterpretable latent representations that are tied to the training task and thus hard to generalize to new tasks. In this work, we present a novel world model formulation where the reward prediction only depends",
+  "relevance": null,
+  "tags": [
+    "cs.AI",
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

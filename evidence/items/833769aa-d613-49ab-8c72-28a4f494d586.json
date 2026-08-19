@@ -1,0 +1,17 @@
+{
+  "id": "833769aa-d613-49ab-8c72-28a4f494d586",
+  "timestamp": "2026-08-19T23:23:57.901602+00:00",
+  "source": "arxiv",
+  "title": "BayesPrompt: human readable prompts that make sense",
+  "url": "https://arxiv.org/abs/2608.17866v1",
+  "summary": "Reconstructing prompts that can elicit a desired answer or behaviour in an LLM is an open and important research topic. Optimisation methods which aim at minimising the perplexity of a given answer, however, consistently yield so-called pseudoprompts, unintelligible strings of tokens which can lack human interpretability. We argue that this is a consequence of the ill-posedness of the prompt optimisation task. By reframing the task as a Bayesian posterior inference over prompts, we propose an ef",
+  "relevance": null,
+  "tags": [
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

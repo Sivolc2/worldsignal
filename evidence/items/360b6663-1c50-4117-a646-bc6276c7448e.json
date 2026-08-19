@@ -1,0 +1,26 @@
+{
+  "id": "360b6663-1c50-4117-a646-bc6276c7448e",
+  "timestamp": "2026-08-19T23:24:05.821693+00:00",
+  "source": "github",
+  "title": "ray-project/ray: Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
+  "url": "https://github.com/ray-project/ray",
+  "summary": "Stars: 43560, Language: Python, Topics: data-science, deep-learning, deployment, distributed, hyperparameter-optimization. Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
+  "relevance": null,
+  "tags": [
+    "data-science",
+    "deep-learning",
+    "deployment",
+    "distributed",
+    "hyperparameter-optimization",
+    "hyperparameter-search",
+    "large-language-models",
+    "llm",
+    "llm-inference",
+    "llm-serving"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

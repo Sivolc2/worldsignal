@@ -1,0 +1,22 @@
+{
+  "id": "f940951e-23bb-4060-b8bd-a3e0e12011fe",
+  "timestamp": "2026-08-19T23:24:06.160732+00:00",
+  "source": "github",
+  "title": "langflow-ai/langflow: Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+  "url": "https://github.com/langflow-ai/langflow",
+  "summary": "Stars: 153482, Language: Python, Topics: agents, chatgpt, generative-ai, large-language-models, multiagent. Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+  "relevance": null,
+  "tags": [
+    "agents",
+    "chatgpt",
+    "generative-ai",
+    "large-language-models",
+    "multiagent",
+    "react-flow"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

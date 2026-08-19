@@ -1,0 +1,21 @@
+{
+  "id": "ec09be7d-8bc4-4e34-b5f5-e3b1f7196f00",
+  "timestamp": "2026-08-19T23:24:06.160792+00:00",
+  "source": "github",
+  "title": "crewAIInc/crewAI: Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+  "url": "https://github.com/crewAIInc/crewAI",
+  "summary": "Stars: 57339, Language: Python, Topics: agents, ai, ai-agents, aiagentframework, llms. Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+  "relevance": null,
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "aiagentframework",
+    "llms"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

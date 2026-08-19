@@ -1,0 +1,24 @@
+{
+  "id": "6fac7a3a-bf36-41ef-9c5b-de2c35431d8c",
+  "timestamp": "2026-08-19T23:24:05.447032+00:00",
+  "source": "github",
+  "title": "keras-team/keras: Deep Learning for humans",
+  "url": "https://github.com/keras-team/keras",
+  "summary": "Stars: 64242, Language: Python, Topics: data-science, deep-learning, jax, machine-learning, neural-networks. Deep Learning for humans",
+  "relevance": null,
+  "tags": [
+    "data-science",
+    "deep-learning",
+    "jax",
+    "machine-learning",
+    "neural-networks",
+    "python",
+    "pytorch",
+    "tensorflow"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "b2299541-a492-4adb-93ba-45a18e0a2732",
+  "timestamp": "2026-08-19T23:23:54.733036+00:00",
+  "source": "arxiv",
+  "title": "HLSR: Hybrid Live Forecast Selective Dynamic Vehicle Rerouting for Real-Time Congestion Avoidance",
+  "url": "https://arxiv.org/abs/2608.18056v1",
+  "summary": "Urban traffic congestion reduces productivity and increases travel cost and emissions. Network-wide live travel-time shortest-path rerouting can be highly effective in simulation, but assumes that essentially every on-road vehicle is replanned every decision period. We propose HLSR, a selective hybrid live--forecast vehicle rerouting framework that fuses live edge speeds with short-horizon forecasts under limited intervention scope. Building on dual-threshold congestion detection, calibrated ups",
+  "relevance": null,
+  "tags": [
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

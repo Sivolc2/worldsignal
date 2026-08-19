@@ -1,0 +1,17 @@
+{
+  "id": "4bc91863-89e4-4914-93cb-d92f88bfb813",
+  "timestamp": "2026-08-19T23:23:57.901818+00:00",
+  "source": "arxiv",
+  "title": "Auditing Exposure to Harmful Content on TikTok using Multimodal Language Models: A Cross-National, Age-Stratified Study",
+  "url": "https://arxiv.org/abs/2608.17583v1",
+  "summary": "Online video platforms can expose young users to harmful content, but independent audits remain difficult because video annotation is costly and moderation judgments vary across languages. We audit TikTok in France, Italy, and Sweden with sockpuppet accounts representing four age personas (13, 16, 19, 40), collecting 36,971 videos from passive For-You-page scrolling and active sessions that scroll, search for harm keywords, and scroll again. To scale annotation, we validate four multimodal LLMs ",
+  "relevance": null,
+  "tags": [
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

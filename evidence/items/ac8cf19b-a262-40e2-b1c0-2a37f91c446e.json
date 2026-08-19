@@ -1,0 +1,26 @@
+{
+  "id": "ac8cf19b-a262-40e2-b1c0-2a37f91c446e",
+  "timestamp": "2026-08-19T23:24:04.698477+00:00",
+  "source": "github",
+  "title": "thedotmack/claude-mem: Persistent Context Across Sessions for Every Agent \u2013  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future s",
+  "url": "https://github.com/thedotmack/claude-mem",
+  "summary": "Stars: 91269, Language: JavaScript, Topics: ai, ai-agents, ai-memory, anthropic, artificial-intelligence. Persistent Context Across Sessions for Every Agent \u2013  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+  "relevance": null,
+  "tags": [
+    "ai",
+    "ai-agents",
+    "ai-memory",
+    "anthropic",
+    "artificial-intelligence",
+    "chromadb",
+    "claude",
+    "claude-agent-sdk",
+    "claude-agents",
+    "claude-code"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

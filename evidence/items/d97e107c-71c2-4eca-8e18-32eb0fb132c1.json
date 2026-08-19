@@ -1,0 +1,17 @@
+{
+  "id": "d97e107c-71c2-4eca-8e18-32eb0fb132c1",
+  "timestamp": "2026-08-19T23:23:54.733294+00:00",
+  "source": "arxiv",
+  "title": "ARASH: Adaptive Retrieval And Shot Selection for Tabular Prediction",
+  "url": "https://arxiv.org/abs/2608.17856v1",
+  "summary": "Tabular prediction is a critical task across numerous applications. The recent success of large language models has sparked various approaches for adapting them to the tabular domain. A prevalent strategy involves training or fine-tuning specialized Tabular Foundation Models (TFMs) such as TabPFN. However, TFMs require substantial computational resources, and frequent model retraining is often impractical. In-context learning (ICL), specifically, few-shot prompting, offers a resource-efficient a",
+  "relevance": null,
+  "tags": [
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "35718b9b-0b7a-4835-a65a-860d3360b05c",
+  "timestamp": "2026-08-19T23:23:54.733081+00:00",
+  "source": "arxiv",
+  "title": "Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach",
+  "url": "https://arxiv.org/abs/2608.18017v1",
+  "summary": "Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of pilot control behavior. Existing explainable AI techniques, such as feature importance maps, often require considerable domain knowledge to translate them into operationally meaningful explanations. Large Language Models (LLMs), which excel at language reasoning, bring a promising solution to this issue. However, apply",
+  "relevance": null,
+  "tags": [
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

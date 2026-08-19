@@ -1,0 +1,18 @@
+{
+  "id": "0e9f6394-6daa-47ee-a990-7255e426437f",
+  "timestamp": "2026-08-19T23:24:01.073606+00:00",
+  "source": "arxiv",
+  "title": "Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry",
+  "url": "https://arxiv.org/abs/2608.18033v1",
+  "summary": "Categorising invoices into the correct General Ledger (GL) code underpins financial reporting and tax compliance. This is a skilled accounting judgement rather than a routine task: the correct category depends subtly on the nature of the purchasing business, the vendor and the invoice text. Whilst AI is increasingly being adopted across industries to automate tasks, including invoice categorisation, implementations built on in-house small language models (SLMs) can simultaneously reduce cost and",
+  "relevance": null,
+  "tags": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

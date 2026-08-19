@@ -1,0 +1,19 @@
+{
+  "id": "0fded890-d51a-470d-9b28-24621f42c375",
+  "timestamp": "2026-08-19T23:23:54.733190+00:00",
+  "source": "arxiv",
+  "title": "Efficient RLVR Scheduling via Graph-Structured Online Difficulty Estimation",
+  "url": "https://arxiv.org/abs/2608.17941v1",
+  "summary": "Reinforcement learning with verifiable rewards (RLVR) improves the reasoning capabilities of large language models but relies on costly rollout exploration. Assigning the same exploration budget to samples with different difficulty levels is inefficient: easy samples may receive redundant rollouts, whereas difficult but learnable samples may receive too little exploration. Existing adaptive schedulers address this mismatch through curriculum-based sample selection or non-uniform rollout allocati",
+  "relevance": null,
+  "tags": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

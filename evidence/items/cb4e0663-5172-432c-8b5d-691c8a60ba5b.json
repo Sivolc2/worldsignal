@@ -1,0 +1,26 @@
+{
+  "id": "cb4e0663-5172-432c-8b5d-691c8a60ba5b",
+  "timestamp": "2026-08-19T23:24:05.447047+00:00",
+  "source": "github",
+  "title": "roboflow/supervision: We write your reusable computer vision tools. \ud83d\udc9c",
+  "url": "https://github.com/roboflow/supervision",
+  "summary": "Stars: 49548, Language: Python, Topics: classification, coco, computer-vision, deep-learning, hacktoberfest. We write your reusable computer vision tools. \ud83d\udc9c",
+  "relevance": null,
+  "tags": [
+    "classification",
+    "coco",
+    "computer-vision",
+    "deep-learning",
+    "hacktoberfest",
+    "image-processing",
+    "instance-segmentation",
+    "low-code",
+    "machine-learning",
+    "metrics"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dd79ac79-9ef1-4be0-9917-06d6707787f2",
+  "timestamp": "2026-08-19T23:24:06.160781+00:00",
+  "source": "github",
+  "title": "mem0ai/mem0: Universal memory layer for AI Agents",
+  "url": "https://github.com/mem0ai/mem0",
+  "summary": "Stars: 63618, Language: Python, Topics: agents, ai, ai-agents, application, chatbots. Universal memory layer for AI Agents",
+  "relevance": null,
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "application",
+    "chatbots",
+    "chatgpt",
+    "genai",
+    "llm",
+    "long-term-memory",
+    "memory"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "39fff884-94e8-4960-ad28-4318031beadf",
+  "timestamp": "2026-08-19T23:23:54.733303+00:00",
+  "source": "arxiv",
+  "title": "Encoded but Not Actionable: Auditing the Decode-Generate-Steer Gap in Frozen LLMs for Geometric Constraints",
+  "url": "https://arxiv.org/abs/2608.17843v1",
+  "summary": "Large language models (LLMs) have demonstrated strong performance on structured reasoning tasks, but what they encode and whether it informs model behavior remain unclear. We investigate this question through geometric reasoning, using parametric CAD constraints as a controlled testbed for separating local pairwise relations from sketch-level constraint status. By probing the hidden states of six frozen decoder-only LLMs, we examine four properties: linear decodability, forced-choice generation,",
+  "relevance": null,
+  "tags": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

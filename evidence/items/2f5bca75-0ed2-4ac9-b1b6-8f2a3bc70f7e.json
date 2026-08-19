@@ -1,0 +1,18 @@
+{
+  "id": "2f5bca75-0ed2-4ac9-b1b6-8f2a3bc70f7e",
+  "timestamp": "2026-08-19T23:23:57.901753+00:00",
+  "source": "arxiv",
+  "title": "LLM-Derived Preference Judgments Are Not Self-Consistent",
+  "url": "https://arxiv.org/abs/2608.17644v1",
+  "summary": "Agents increasingly interpret a person's natural-language preferences by querying an LLM for numerical preference judgments, e.g., by asking how much the person would be willing to pay for an item. A growing body of work estimates a utility function from these judgments and then chooses actions based on their estimated utility. This pipeline assumes the judgments are approximately self-consistent: that a single utility function can reproduce them. But are they? To study this question, we measure",
+  "relevance": null,
+  "tags": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

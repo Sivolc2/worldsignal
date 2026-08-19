@@ -1,0 +1,19 @@
+{
+  "id": "0d4bd270-459b-4b30-8f42-882705e7f9f4",
+  "timestamp": "2026-08-19T23:23:54.733178+00:00",
+  "source": "arxiv",
+  "title": "Procedural Content Metageneration via Program Search and Continual Abstraction Discovery",
+  "url": "https://arxiv.org/abs/2608.17947v1",
+  "summary": "Large language models can generate executable programs, which makes it possible to search directly over procedural content generators rather than individual levels. We study this approach in Sokoban, Zelda, Dangerous Dave, and Lode Runner. Each run evolves complete Python generators through language-model mutation and crossover. We introduce Continual Abstraction Discovery, or CAD, which extracts reusable primitives from high-fitness programs into a run-specific helper module. A 2x2 experiment c",
+  "relevance": null,
+  "tags": [
+    "cs.AI",
+    "cs.LG",
+    "cs.NE"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

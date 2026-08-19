@@ -1,0 +1,17 @@
+{
+  "id": "5cad962f-b39e-4629-96bc-22c1a1f0ece1",
+  "timestamp": "2026-08-19T23:24:01.074015+00:00",
+  "source": "arxiv",
+  "title": "Efficient Resource Optimization for Split Federated Learning",
+  "url": "https://arxiv.org/abs/2608.17849v1",
+  "summary": "Split federated learning (SFL) has emerged as a powerful paradigm for model training at the edge. However, SFL inherently involves discrete decision variables for model splitting and resource allocation, resulting in a challenging mixed-integer problem. Consequently, prior optimization schemes for SFL are either \\textit{heuristic} or \\textit{computationally inefficient}, which cannot handle large-scale user populations. To address this limitation, this work establishes an efficient optimization ",
+  "relevance": null,
+  "tags": [
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

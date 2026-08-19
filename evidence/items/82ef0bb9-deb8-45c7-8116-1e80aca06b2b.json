@@ -1,0 +1,19 @@
+{
+  "id": "82ef0bb9-deb8-45c7-8116-1e80aca06b2b",
+  "timestamp": "2026-08-19T23:23:57.901786+00:00",
+  "source": "arxiv",
+  "title": "Multi-turn Conversational AI from Text to Multimodal Interaction: Data, Models, Evaluation, and Open Challenges",
+  "url": "https://arxiv.org/abs/2608.17605v1",
+  "summary": "Conversational AI is moving beyond isolated text prompts toward sustained, multimodal interaction. In real conversations, users clarify goals, revise requests, interrupt responses, switch topics, and introduce new evidence while expecting systems to preserve context across turns. This makes multi-turn dialogue a distinct challenge requiring systems to maintain and update memory, ground responses across modalities, tools, and external knowledge, and adapt across languages and cultures. This study",
+  "relevance": null,
+  "tags": [
+    "cs.CL",
+    "cs.AI",
+    "cs.SD"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

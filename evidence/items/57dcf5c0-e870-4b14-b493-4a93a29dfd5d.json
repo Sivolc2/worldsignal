@@ -1,0 +1,24 @@
+{
+  "id": "57dcf5c0-e870-4b14-b493-4a93a29dfd5d",
+  "timestamp": "2026-08-19T23:24:05.447003+00:00",
+  "source": "github",
+  "title": "pytorch/pytorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "url": "https://github.com/pytorch/pytorch",
+  "summary": "Stars: 102487, Language: Python, Topics: autograd, deep-learning, gpu, machine-learning, neural-network. Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "relevance": null,
+  "tags": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "2c3389f1-23a4-4556-a904-bb53936e760c",
+  "timestamp": "2026-08-19T23:23:54.733252+00:00",
+  "source": "arxiv",
+  "title": "Analysis of Types of Inquiries in Student-AI Interaction: A case study of two CS2 tasks",
+  "url": "https://arxiv.org/abs/2608.17919v1",
+  "summary": "Background and Context: Question and inquiry are integral parts of knowledge seeking and learning. Despite their importance, students tend not to ask enough questions in the classroom. However, studies have shown that students interact extensively with generative AI systems for learning and problem solving.   Objective: In this paper, we seek to better understand the types of questions that students ask AI systems, and how those questions evolve during problem solving and across tasks.   Method:",
+  "relevance": null,
+  "tags": [
+    "cs.HC",
+    "cs.AI"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

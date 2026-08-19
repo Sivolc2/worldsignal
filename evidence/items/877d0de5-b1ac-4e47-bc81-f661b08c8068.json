@@ -1,0 +1,23 @@
+{
+  "id": "877d0de5-b1ac-4e47-bc81-f661b08c8068",
+  "timestamp": "2026-08-19T23:24:05.447017+00:00",
+  "source": "github",
+  "title": "tesseract-ocr/tesseract: Tesseract Open Source OCR Engine (main repository)",
+  "url": "https://github.com/tesseract-ocr/tesseract",
+  "summary": "Stars: 76001, Language: C++, Topics: hacktoberfest, lstm, machine-learning, ocr, ocr-engine. Tesseract Open Source OCR Engine (main repository)",
+  "relevance": null,
+  "tags": [
+    "hacktoberfest",
+    "lstm",
+    "machine-learning",
+    "ocr",
+    "ocr-engine",
+    "tesseract",
+    "tesseract-ocr"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "7d51c565-7cc6-4b44-943d-0845a151a076",
+  "timestamp": "2026-08-19T23:23:57.901400+00:00",
+  "source": "arxiv",
+  "title": "TokEval: A Tokenizer Evaluation Suite",
+  "url": "https://arxiv.org/abs/2608.18062v1",
+  "summary": "Language model tokenizers are typically selected with minimal evaluation, despite the fact that their design choices directly impact model capabilities. This can be partly attributed to a limited understanding of which tokenizer properties affect which aspects of downstream performance. We introduce TokEval, a framework of tokenizer evaluation metrics that goes beyond standard measures like fertility and compression rate to capture linguistically and structurally meaningful properties, e.g., UTF",
+  "relevance": null,
+  "tags": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,26 @@
+{
+  "id": "8a8ce140-d69c-41e4-b077-a86f536d2b02",
+  "timestamp": "2026-08-19T23:24:05.045852+00:00",
+  "source": "github",
+  "title": "langchain-ai/langchain: The agent engineering platform.",
+  "url": "https://github.com/langchain-ai/langchain",
+  "summary": "Stars: 144579, Language: Python, Topics: agents, ai, ai-agents, anthropic, chatgpt. The agent engineering platform.",
+  "relevance": null,
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "chatgpt",
+    "deepagents",
+    "enterprise",
+    "framework",
+    "gemini",
+    "generative-ai"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

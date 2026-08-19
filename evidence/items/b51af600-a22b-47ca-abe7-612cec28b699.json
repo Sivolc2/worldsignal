@@ -1,0 +1,17 @@
+{
+  "id": "b51af600-a22b-47ca-abe7-612cec28b699",
+  "timestamp": "2026-08-19T23:24:01.073772+00:00",
+  "source": "arxiv",
+  "title": "Evaluating and improving crop-yield forecasting methods during extreme drought",
+  "url": "https://arxiv.org/abs/2608.17971v1",
+  "summary": "The impact of climate variability on food production has led to the creation of various forecasting models that uses machine learning (ML), numerical weather predictors (NWP) or a hybrid of ML-NWP models to identify structural and physical relationships between meteorological drivers and crop growth, in order to predict crop yield. Droughts, for example the 2012 Midwestern US (Corn Belt) drought, are extreme events that affect crop production and test the limits of these forecasting models. Usin",
+  "relevance": null,
+  "tags": [
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

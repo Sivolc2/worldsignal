@@ -1,0 +1,18 @@
+{
+  "id": "d23b5aa0-8d0a-43fb-a99a-86f498914b76",
+  "timestamp": "2026-08-19T23:24:01.073938+00:00",
+  "source": "arxiv",
+  "title": "AppendiGrade: An XAI-Enhanced Deep Learning Framework for Grading Appendicitis in Ultrasound with Gaussian Blur and Grad-CAM",
+  "url": "https://arxiv.org/abs/2608.17923v1",
+  "summary": "Appendicitis is one of the most common abdominal emergencies worldwide and requires prompt diagnosis and treatment to prevent life-threatening conditions. However, accurately differentiating complicated cases, such as perforation or abscess formation, from uncomplicated appendicitis remains a significant clinical challenge. Among other methods, ultrasound is a safer and more cost-efficient diagnostic technique because of the lack of radiation exposure. In this research, an advanced system capabl",
+  "relevance": null,
+  "tags": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}
