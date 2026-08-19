@@ -21,6 +21,58 @@ Read the contract before doing anything. Your job is to serve the loop:
 5. If the loop entry suggests a contract change, write a proposal to
    `governance/proposals/YYYY-MM-DD-title.md`
 
+## Autonomous Stewardship Loop
+
+This project runs a daily autonomous loop via `python3 src/steward.py`.
+Scheduled at **6:00 AM PT** daily.
+
+### The stewardship algorithm
+
+The daily run is NOT about tackling known issues. It is about:
+
+1. **Run pipeline** — ingest → sync → digest (parallel where possible)
+2. **Snapshot metrics** — evidence count, source coverage, pipeline health
+   (appended to `governance/metrics.json`)
+3. **Assess health** — are things working? is the picture complete?
+4. **Decide:**
+   - **Healthy + complete picture:** Review recent loop entries, log "healthy,"
+     sleep. Nothing to do.
+   - **Healthy + incomplete picture:** Propose a NEW metric or signal that
+     would close the biggest gap. Write the proposal. Sleep.
+   - **Unhealthy:** Identify the issue, propose a fix. If the fix is within
+     scope and boundaries, implement it. Write loop entry. Sleep.
+   - **New evidence pattern:** If today's evidence suggests a new hypothesis
+     or shifts an existing one, update `map/HYPOTHESES.md`. This is the
+     primary creative output of each run.
+5. **Write loop entry** to `governance/loop/YYYY-MM-DD.md`
+6. **Commit + push**
+
+### What the agent should NOT do on daily runs
+
+- Do NOT work through a backlog of known issues
+- Do NOT refactor or restructure existing code unless a metric is failing
+- Do NOT add features unless the contract's success signals demand it
+- DO propose new threads, hypotheses, and metrics
+- DO let the system be quiet when it's healthy
+
+### Using subagents
+
+When operating autonomously, use the Agent tool to parallelize:
+
+**Parallel ingestion** — one subagent per source:
+- `python3 src/ingest_arxiv.py`
+- `python3 src/ingest_github.py`
+- `python3 src/ingest_podcasts.py`
+
+**Sequential** (after ingestion): `python3 src/evidence_store.py` then
+`python3 src/generate_digest.py`
+
+**Deeper analysis subagents** for:
+- Researching a specific signal in depth (web search)
+- Querying the vector store for emerging clusters
+- Drafting governance proposals when signals suggest scope changes
+- Updating the hypothesis map with new evidence patterns
+
 ## What this project builds
 
 Three layers, in order of priority:
@@ -37,37 +89,19 @@ The digest feeds the evidence store. The evidence store renders as the map.
 
 ## Running the pipeline
 
-### Quick run (full pipeline)
 ```bash
-bash run.sh          # ingest all sources → sync to vector store → generate digest
-bash run.sh ingest   # just ingestion
-bash run.sh sync     # just vector store sync
-bash run.sh digest   # just digest generation
+python3 src/steward.py   # full stewardship loop (daily autonomous run)
+bash run.sh              # just the pipeline (ingest → sync → digest)
+bash run.sh ingest       # just ingestion
+bash run.sh sync         # just vector store sync
+bash run.sh digest       # just digest generation
 ```
 
-### Using subagents for parallel work
-
-When operating autonomously, use the Agent tool to parallelize:
-
-**Parallel ingestion** — launch one subagent per source:
-- Agent 1: `cd /home/ec2-user/worldsignal && python3 src/ingest_arxiv.py`
-- Agent 2: `cd /home/ec2-user/worldsignal && python3 src/ingest_github.py`
-- Agent 3: `cd /home/ec2-user/worldsignal && python3 src/ingest_podcasts.py`
-
-**Sequential steps** (must wait for ingestion):
-- After all ingestion agents complete: `python3 src/evidence_store.py`
-- After sync: `python3 src/generate_digest.py`
-
-**Deeper analysis** — use subagents for:
-- Querying the vector store for clusters around a topic
-- Researching a specific signal in depth (web search)
-- Updating the hypothesis map based on new evidence patterns
-- Drafting governance proposals when signals suggest scope changes
-
-### Architecture
+## Architecture
 
 ```
 src/
+  steward.py           — autonomous stewardship loop (the daily cron target)
   ingest_arxiv.py      — arXiv cs.AI/CL/LG recent papers
   ingest_github.py     — GitHub trending AI/ML repos via search API
   ingest_podcasts.py   — Dwarkesh + Moonshot via RSS
@@ -75,9 +109,11 @@ src/
   generate_digest.py   — Claude API synthesis → morning digest
 ```
 
-Evidence items are JSON files in `evidence/items/`. Schema in `evidence/.schema.md`.
-Vector store persists in `evidence/chromadb/` (gitignored).
-Digests output to `digest/YYYY-MM-DD.md`.
+Evidence items: `evidence/items/*.json` (schema in `evidence/.schema.md`)
+Vector store: `evidence/chromadb/` (gitignored)
+Digests: `digest/YYYY-MM-DD.md`
+Metrics: `governance/metrics.json` (append-only snapshots)
+Loop entries: `governance/loop/YYYY-MM-DD.md`
 
 ## Key rules
 

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "description": "Append-only log of metric snapshots. Each entry is a daily observation.",
+  "snapshots": [
+    {
+      "timestamp": "2026-08-19T23:42:50.104346+00:00",
+      "date": "2026-08-19",
+      "evidence_total": 108,
+      "evidence_by_source": {
+        "arxiv": 72,
+        "github": 36
+      },
+      "digest_count": 1,
+      "latest_digest": "2026-08-19.md",
+      "loop_entries": 0,
+      "source_coverage": {
+        "active": [
+          "arxiv",
+          "github"
+        ],
+        "missing": [
+          "alphasignal",
+          "dwarkesh",
+          "moonshot"
+        ],
+        "ratio": "2/5"
+      }
+    }
+  ]
+}
