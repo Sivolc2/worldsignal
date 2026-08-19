@@ -47,31 +47,81 @@ The daily run is NOT about tackling known issues. It is about:
 5. **Write loop entry** to `governance/loop/YYYY-MM-DD.md`
 6. **Commit + push**
 
-### What the agent should NOT do on daily runs
+### What the agent SHOULD do
 
-- Do NOT work through a backlog of known issues
-- Do NOT refactor or restructure existing code unless a metric is failing
-- Do NOT add features unless the contract's success signals demand it
-- DO propose new threads, hypotheses, and metrics
-- DO let the system be quiet when it's healthy
+- DO dispatch subagents to fix broken sources or implement missing ones
+- DO dispatch subagents to deep-dive signals and build out the hypothesis map
+- DO propose AND implement new metrics when the picture is incomplete
+- DO propose new threads, hypotheses, and evidence dimensions
+- DO let the system be quiet when it's genuinely healthy and complete
 
-### Using subagents
+### What the agent should NOT do
 
-When operating autonomously, use the Agent tool to parallelize:
+- Do NOT work through an external backlog — the contract defines the work
+- Do NOT refactor working code for style — only fix what's broken or missing
+- Do NOT add features outside the contract's scope without a proposal
+- Do NOT invent busywork when the system is healthy
 
-**Parallel ingestion** — one subagent per source:
-- `python3 src/ingest_arxiv.py`
-- `python3 src/ingest_github.py`
-- `python3 src/ingest_podcasts.py`
+### Subagent Authority
 
-**Sequential** (after ingestion): `python3 src/evidence_store.py` then
-`python3 src/generate_digest.py`
+The steward agent MUST use the Agent tool to spin up subagents for work.
+Subagents are how the steward gets things done — not just proposed.
 
-**Deeper analysis subagents** for:
-- Researching a specific signal in depth (web search)
-- Querying the vector store for emerging clusters
-- Drafting governance proposals when signals suggest scope changes
-- Updating the hypothesis map with new evidence patterns
+**Authority model:**
+- **Within scope + boundaries (CONTRACT.md §4, §5):** Dispatch a subagent to
+  implement immediately. No proposal needed.
+- **Scope-adjacent (plausible but not explicitly listed):** Dispatch a subagent
+  to prototype, but note it in the loop entry for steward review.
+- **Outside scope:** Write a proposal. Do NOT dispatch.
+
+**When to dispatch subagents:**
+
+1. **Parallel ingestion** — one subagent per source:
+   - `python3 src/ingest_arxiv.py`
+   - `python3 src/ingest_github.py`
+   - `python3 src/ingest_podcasts.py`
+
+2. **Fix broken sources** — if a source is returning empty or erroring:
+   - Dispatch a subagent to research the correct RSS/API endpoint (WebSearch)
+   - Dispatch another to implement the fix in the ingestion script
+   - This is clearly in scope — broken sources degrade the pipeline
+
+3. **Deep-dive a signal** — if today's digest surfaces something important:
+   - Dispatch a subagent with WebSearch/WebFetch to research it further
+   - Have it write a detailed evidence item with the findings
+   - This feeds the hypothesis map
+
+4. **New hypothesis thread** — if evidence patterns suggest a new thread:
+   - Dispatch a subagent to survey the landscape around that thread
+   - Have it draft the hypothesis entry for `map/HYPOTHESES.md`
+   - Have it gather 3-5 supporting/challenging evidence items
+
+5. **Metric instrumentation** — if the picture is incomplete:
+   - Dispatch a subagent to implement a new metric in `steward.py`
+   - Or to add a new tracking dimension to `governance/metrics.json`
+
+6. **New source integration** — if a source is approved in the contract but
+   not yet implemented:
+   - Dispatch a subagent to build the ingestion script
+   - This is within scope — the contract lists approved sources
+
+**Subagent patterns:**
+
+Launch multiple subagents in parallel when their work is independent:
+```
+Agent 1: "Research working RSS feed for Dwarkesh podcast. Try..."
+Agent 2: "Research Alpha Signal newsletter ingestion approach..."
+Agent 3: "Deep-dive on [emerging signal] — search for related..."
+```
+
+Use sequential subagents when one depends on another:
+```
+Agent 1: "Fix podcast RSS feed..." → wait for result
+Agent 2: "Run the fixed ingestion and verify..." (uses Agent 1's output)
+```
+
+**Sequential** pipeline steps (after ingestion): `python3 src/evidence_store.py`
+then `python3 src/generate_digest.py`
 
 ## What this project builds
 
