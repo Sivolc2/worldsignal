@@ -6,10 +6,10 @@
 
 ## How to read this map
 
+- **Emerged** — new hypothesis surfaced from evidence clustering
 - **Active** — currently accumulating evidence
 - **Strengthening** — recent evidence supports this
 - **Weakening** — recent evidence challenges this
-- **Emerged** — new hypothesis surfaced from evidence clustering
 - **Retired** — enough evidence to confirm or reject
 
 ---
@@ -56,18 +56,3 @@
 **Implications for steward:** "Git for agent workspaces" is an entire product category waiting. Early movers define audit/trust standards.
 
 ---
-
-### Template
-
-```
-### H[N]: [Title]
-
-**Claim:** [One sentence]
-**Status:** active | strengthening | weakening | emerged | retired
-**Evidence for:**
-- [date] [source] [summary] [link]
-**Evidence against:**
-- [date] [source] [summary] [link]
-**Last updated:** [date]
-**Implications for steward:** [what this means for the startup / worldview]
-```

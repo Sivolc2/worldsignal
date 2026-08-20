@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "hypotheses": [
+    {
+      "id": "H1",
+      "title": "Agent reliability is the next capability frontier",
+      "claim": "As raw capability plateaus, the competitive gap opens around reliability, consistency, and verifiability of agent behavior \u2014 not raw performance.",
+      "status": "emerged",
+      "evidence_for": [
+        {
+          "date": "2026-08-19",
+          "source": "arxiv",
+          "summary": "Self-improving agents are fragile under variance and task reordering",
+          "link": "https://arxiv.org/abs/2608.18066v1"
+        },
+        {
+          "date": "2026-08-19",
+          "source": "arxiv",
+          "summary": "LLM preference judgments are not self-consistent \u2014 cannot be reproduced by a single coherent utility function",
+          "link": "https://arxiv.org/abs/2608.17644v1"
+        },
+        {
+          "date": "2026-08-19",
+          "source": "arxiv",
+          "summary": "API model migrations hide item-level regressions behind aggregate scores",
+          "link": "https://arxiv.org/abs/2608.17719v1"
+        }
+      ],
+      "evidence_against": [],
+      "implications": "Products that instrument, audit, and guarantee agent behavior will command premium trust. Relevant to Paperclip's autonomous company stack.",
+      "created": "2026-08-19T00:00:00+00:00",
+      "last_updated": "2026-08-19T00:00:00+00:00"
+    },
+    {
+      "id": "H2",
+      "title": "Agent memory is commoditizing into middleware",
+      "claim": "Persistent cross-session memory is consolidating from a product differentiator into a standardized infrastructure layer.",
+      "status": "emerged",
+      "evidence_for": [
+        {
+          "date": "2026-08-19",
+          "source": "github",
+          "summary": "claude-mem (91k stars), mem0 (63k stars) and multiple harness projects all targeting the same layer",
+          "link": "https://github.com/thedotmack/claude-mem"
+        }
+      ],
+      "evidence_against": [],
+      "implications": "Build above the memory layer, not at it. Memory-as-a-product plays are likely to be commoditized.",
+      "created": "2026-08-19T00:00:00+00:00",
+      "last_updated": "2026-08-19T00:00:00+00:00"
+    },
+    {
+      "id": "H3",
+      "title": "Versioned workspaces will define agent auditability",
+      "claim": "Agents need explicit state management (git-like workspace awareness) to be auditable, rollback-capable, and trusted in knowledge work.",
+      "status": "emerged",
+      "evidence_for": [
+        {
+          "date": "2026-08-19",
+          "source": "arxiv",
+          "summary": "StagedWorkspace \u2014 agents editing documents need explicit workspace-state contracts",
+          "link": "https://arxiv.org/abs/2608.18050v1"
+        }
+      ],
+      "evidence_against": [],
+      "implications": "\"Git for agent workspaces\" is an entire product category waiting. Early movers define audit/trust standards.",
+      "created": "2026-08-19T00:00:00+00:00",
+      "last_updated": "2026-08-19T00:00:00+00:00"
+    }
+  ],
+  "next_id": 4
+}

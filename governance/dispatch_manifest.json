@@ -1,0 +1,13 @@
+{
+  "dispatch_enabled": true,
+  "requests": [
+    {
+      "action": "build_feature",
+      "priority": "medium",
+      "scope": "in_scope",
+      "target": "P001",
+      "prompt": "Implement approved proposal P001. Read the proposal markdown in governance/proposals/ for full details."
+    }
+  ],
+  "capped": false
+}

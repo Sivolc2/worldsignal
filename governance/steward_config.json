@@ -1,0 +1,69 @@
+{
+  "_doc": "Steward configuration — all tunable params for the autonomous loop. Edit this file to change steward behavior. See governance/CONFIG.md for field documentation.",
+
+  "cadence": {
+    "interval_hours": 24,
+    "schedule_utc": "13:00",
+    "timezone": "America/Los_Angeles",
+    "schedule_local": "06:00"
+  },
+
+  "triggers": {
+    "early_wake": {
+      "source_failure_count": 2,
+      "evidence_staleness_hours": 48,
+      "hypothesis_conflict": true,
+      "proposal_approved": true
+    }
+  },
+
+  "monitoring": {
+    "pipeline_timeout_seconds": 120,
+    "min_evidence_per_source": 1,
+    "min_total_evidence_per_run": 5,
+    "source_health_check": true,
+    "digest_required": true,
+    "max_digest_age_hours": 36
+  },
+
+  "dispatch": {
+    "enabled": true,
+    "max_concurrent_subagents": 3,
+    "allowed_actions": [
+      "fix_source",
+      "deep_dive_signal",
+      "new_hypothesis",
+      "implement_metric",
+      "new_source",
+      "investigate_thread",
+      "build_feature"
+    ],
+    "auto_approve_within_scope": true,
+    "require_proposal_outside_scope": true
+  },
+
+  "hypotheses": {
+    "store_path": "map/hypotheses.json",
+    "render_path": "map/HYPOTHESES.md",
+    "max_evidence_age_days": 90,
+    "auto_weaken_if_no_evidence_days": 30,
+    "auto_retire_if_weakened_days": 60
+  },
+
+  "proposals": {
+    "store_path": "governance/proposals/index.json",
+    "proposals_dir": "governance/proposals",
+    "auto_expire_days": 14
+  },
+
+  "sources": {
+    "approved": ["arxiv", "github", "alphasignal", "dwarkesh", "moonshot"],
+    "scripts": {
+      "arxiv": "src/ingest_arxiv.py",
+      "github": "src/ingest_github.py",
+      "alphasignal": "src/ingest_alphasignal.py",
+      "dwarkesh": "src/ingest_podcasts.py",
+      "moonshot": "src/ingest_podcasts.py"
+    }
+  }
+}

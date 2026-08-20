@@ -25,6 +25,33 @@
         ],
         "ratio": "2/5"
       }
+    },
+    {
+      "timestamp": "2026-08-20T00:31:25.711422+00:00",
+      "date": "2026-08-20",
+      "evidence_total": 138,
+      "evidence_by_source": {
+        "arxiv": 72,
+        "github": 36,
+        "alphasignal": 20,
+        "dwarkesh": 5,
+        "moonshot": 5
+      },
+      "new_evidence": {},
+      "digest_count": 2,
+      "latest_digest": "2026-08-20.md",
+      "loop_entries": 1,
+      "source_coverage": {
+        "active": [
+          "alphasignal",
+          "arxiv",
+          "dwarkesh",
+          "github",
+          "moonshot"
+        ],
+        "missing": [],
+        "ratio": "5/5"
+      }
     }
   ]
 }
