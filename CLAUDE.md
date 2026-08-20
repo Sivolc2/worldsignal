@@ -18,34 +18,38 @@ Read the contract before doing anything. Your job is to serve the loop:
    - What you built
    - What signals moved (or didn't)
    - Proposed refinements to intent, scope, or signals
-5. If the loop entry suggests a contract change, write a proposal to
-   `governance/proposals/YYYY-MM-DD-title.md`
+5. If the loop entry suggests a contract change, write a proposal via
+   `python3 -c "import sys; sys.path.insert(0,'src'); import proposals; proposals.propose(...)"`
+
+## Configuration
+
+All steward behavior is configured in **`governance/steward_config.json`**.
+See `governance/CONFIG.md` for field-by-field documentation.
+
+Key config sections:
+- **cadence** — how often the steward wakes (default: 24h at 6am PT)
+- **triggers.early_wake** — conditions that wake the steward early
+- **monitoring** — health check thresholds
+- **dispatch** — subagent dispatch rules and limits
+- **hypotheses** — staleness thresholds, auto-weaken/retire
+- **proposals** — lifecycle parameters, auto-expire
+- **sources** — approved sources and their ingestion scripts
 
 ## Autonomous Stewardship Loop
 
 This project runs a daily autonomous loop via `python3 src/steward.py`.
-Scheduled at **6:00 AM PT** daily.
+Scheduled at **6:00 AM PT** daily (configurable in steward_config.json).
 
-### The stewardship algorithm
+### The stewardship algorithm (7 steps)
 
-The daily run is NOT about tackling known issues. It is about:
-
-1. **Run pipeline** — ingest → sync → digest (parallel where possible)
-2. **Snapshot metrics** — evidence count, source coverage, pipeline health
-   (appended to `governance/metrics.json`)
-3. **Assess health** — are things working? is the picture complete?
-4. **Decide:**
-   - **Healthy + complete picture:** Review recent loop entries, log "healthy,"
-     sleep. Nothing to do.
-   - **Healthy + incomplete picture:** Propose a NEW metric or signal that
-     would close the biggest gap. Write the proposal. Sleep.
-   - **Unhealthy:** Identify the issue, propose a fix. If the fix is within
-     scope and boundaries, implement it. Write loop entry. Sleep.
-   - **New evidence pattern:** If today's evidence suggests a new hypothesis
-     or shifts an existing one, update `map/HYPOTHESES.md`. This is the
-     primary creative output of each run.
-5. **Write loop entry** to `governance/loop/YYYY-MM-DD.md`
-6. **Commit + push**
+1. **Load config** from `governance/steward_config.json`
+2. **Run pipeline** — ingest all configured sources → sync → digest
+3. **Snapshot metrics** — evidence counts, source coverage, new evidence delta
+4. **Run monitors** — pipeline health, source health, digest freshness, staleness
+5. **Check hypotheses** — staleness alerts, auto-weaken/retire recommendations
+6. **Check proposals** — pending decisions, approved-awaiting-implementation, expired
+7. **Evaluate triggers + dispatch** — build dispatch manifest for subagents
+8. **Write loop entry + commit + push**
 
 ### What the agent SHOULD do
 
@@ -68,61 +72,74 @@ The steward agent MUST use the Agent tool to spin up subagents for work.
 Subagents are how the steward gets things done — not just proposed.
 
 **Authority model:**
-- **Within scope + boundaries (CONTRACT.md §4, §5):** Dispatch a subagent to
-  implement immediately. No proposal needed.
-- **Scope-adjacent (plausible but not explicitly listed):** Dispatch a subagent
-  to prototype, but note it in the loop entry for steward review.
-- **Outside scope:** Write a proposal. Do NOT dispatch.
+- **Within scope + boundaries (CONTRACT.md §4, §5):** Dispatch immediately.
+- **Scope-adjacent:** Dispatch to prototype, note in loop entry for review.
+- **Outside scope:** Write a proposal via `proposals.propose()`. Do NOT dispatch.
+
+**Dispatch manifest:** After each run, `governance/dispatch_manifest.json` contains
+structured requests for the cloud agent to act on. Each request has:
+- `action` — what type of work (must be in `config.dispatch.allowed_actions`)
+- `priority` — high/medium/low
+- `scope` — in_scope / scope_adjacent / out_of_scope
+- `prompt` — suggested prompt for the subagent
+
+The cloud agent reads this manifest and dispatches subagents accordingly.
 
 **When to dispatch subagents:**
 
-1. **Parallel ingestion** — one subagent per source:
-   - `python3 src/ingest_arxiv.py`
-   - `python3 src/ingest_github.py`
-   - `python3 src/ingest_podcasts.py`
-   - `python3 src/ingest_alphasignal.py`
+1. **Fix broken sources** — dispatch_manifest will have `fix_source` actions
+2. **Build approved features** — `build_feature` actions from approved proposals
+3. **Investigate stale hypotheses** — `investigate_thread` actions
+4. **Deep-dive signals** — agent judgment based on digest content
+5. **New hypothesis threads** — agent judgment from evidence patterns
+6. **Metric instrumentation** — `implement_metric` when picture is incomplete
 
-2. **Fix broken sources** — if a source is returning empty or erroring:
-   - Dispatch a subagent to research the correct RSS/API endpoint (WebSearch)
-   - Dispatch another to implement the fix in the ingestion script
-   - This is clearly in scope — broken sources degrade the pipeline
+### Early Wake Triggers
 
-3. **Deep-dive a signal** — if today's digest surfaces something important:
-   - Dispatch a subagent with WebSearch/WebFetch to research it further
-   - Have it write a detailed evidence item with the findings
-   - This feeds the hypothesis map
+The steward can wake before the next scheduled run when:
+- Multiple sources fail in a single run (`source_failure_count`)
+- Evidence store goes stale (`evidence_staleness_hours`)
+- New evidence conflicts with an active hypothesis (`hypothesis_conflict`)
+- An approved proposal awaits implementation (`proposal_approved`)
 
-4. **New hypothesis thread** — if evidence patterns suggest a new thread:
-   - Dispatch a subagent to survey the landscape around that thread
-   - Have it draft the hypothesis entry for `map/HYPOTHESES.md`
-   - Have it gather 3-5 supporting/challenging evidence items
+Thresholds are configurable in `steward_config.json → triggers.early_wake`.
 
-5. **Metric instrumentation** — if the picture is incomplete:
-   - Dispatch a subagent to implement a new metric in `steward.py`
-   - Or to add a new tracking dimension to `governance/metrics.json`
+## Hypothesis Store
 
-6. **New source integration** — if a source is approved in the contract but
-   not yet implemented:
-   - Dispatch a subagent to build the ingestion script
-   - This is within scope — the contract lists approved sources
+Hypotheses are stored in `map/hypotheses.json` and rendered to `map/HYPOTHESES.md`.
+All mutations go through `src/hypothesis_store.py` to keep them in sync.
 
-**Subagent patterns:**
+```python
+import hypothesis_store
 
-Launch multiple subagents in parallel when their work is independent:
-```
-Agent 1: "Research working RSS feed for Dwarkesh podcast. Try..."
-Agent 2: "Research Alpha Signal newsletter ingestion approach..."
-Agent 3: "Deep-dive on [emerging signal] — search for related..."
+hypothesis_store.add("Title", "One-sentence claim", implications="Why it matters")
+hypothesis_store.add_evidence("H1", "for", "2026-08-20", "arxiv", "Summary", "https://...")
+hypothesis_store.transition("H1", "strengthening")
+hypothesis_store.check_staleness()  # returns alerts for stale hypotheses
+hypothesis_store.list_active()      # all non-retired
 ```
 
-Use sequential subagents when one depends on another:
-```
-Agent 1: "Fix podcast RSS feed..." → wait for result
-Agent 2: "Run the fixed ingestion and verify..." (uses Agent 1's output)
+Auto-lifecycle (configurable):
+- **Auto-weaken** if no new evidence for N days (default: 30)
+- **Auto-retire** if weakened for N days (default: 60)
+
+## Proposal System
+
+Proposals go through: proposed → approved/rejected → implemented/expired.
+
+```python
+import proposals
+
+proposals.propose("Title", what="...", why="...", scope="in_scope", dispatch_action="fix_source")
+proposals.decide("P001", "approved")
+proposals.mark_implemented("P001")
+proposals.pending()                        # awaiting decision
+proposals.approved_awaiting_implementation()  # ready to dispatch
+proposals.check_expired()                  # auto-expire after N days
 ```
 
-**Sequential** pipeline steps (after ingestion): `python3 src/evidence_store.py`
-then `python3 src/generate_digest.py`
+Each proposal gets a markdown file in `governance/proposals/` for human review
+and an entry in `governance/proposals/index.json`.
 
 ## What this project builds
 
@@ -141,31 +158,51 @@ The digest feeds the evidence store. The evidence store renders as the map.
 ## Running the pipeline
 
 ```bash
-python3 src/steward.py   # full stewardship loop (daily autonomous run)
-bash run.sh              # just the pipeline (ingest → sync → digest)
-bash run.sh ingest       # just ingestion
-bash run.sh sync         # just vector store sync
-bash run.sh digest       # just digest generation
+python3 src/steward.py        # full stewardship loop (daily autonomous run)
+bash run.sh                   # just the pipeline (ingest → sync → digest)
+bash run.sh ingest            # just ingestion
+bash run.sh sync              # just vector store sync
+bash run.sh digest            # just digest generation
+python3 src/monitors.py       # standalone health check
+python3 src/hypothesis_store.py          # list hypotheses + staleness
+python3 src/hypothesis_store.py migrate  # one-time markdown → JSON migration
+python3 src/proposals.py                 # proposal summary
+python3 src/proposals.py pending         # list pending proposals
+python3 src/proposals.py approved        # list approved awaiting implementation
 ```
 
 ## Architecture
 
 ```
+governance/
+  CONTRACT.md            — the governance contract (source of truth)
+  steward_config.json    — all configurable steward params
+  CONFIG.md              — config field documentation
+  metrics.json           — append-only metric snapshots
+  dispatch_manifest.json — subagent dispatch requests (written each run)
+  loop/                  — daily loop entries
+  proposals/             — proposal markdown files + index.json
+
 src/
-  steward.py           — autonomous stewardship loop (the daily cron target)
-  ingest_arxiv.py      — arXiv cs.AI/CL/LG recent papers
-  ingest_github.py     — GitHub trending AI/ML repos via search API
-  ingest_podcasts.py   — Dwarkesh + Moonshot via RSS
-  ingest_alphasignal.py — Alpha Signal AI news via RSS
-  evidence_store.py    — ChromaDB vector store (sync + query)
-  generate_digest.py   — Claude API synthesis → morning digest
+  steward.py             — autonomous stewardship loop (the daily cron target)
+  monitors.py            — health checks, triggers, early wake, dispatch manifests
+  hypothesis_store.py    — hypothesis CRUD (JSON store + markdown render)
+  proposals.py           — proposal lifecycle management
+  ingest_arxiv.py        — arXiv cs.AI/CL/LG recent papers
+  ingest_github.py       — GitHub trending AI/ML repos via search API
+  ingest_podcasts.py     — Dwarkesh + Moonshot via RSS
+  ingest_alphasignal.py  — Alpha Signal AI news via RSS
+  evidence_store.py      — ChromaDB vector store (sync + query)
+  generate_digest.py     — Claude API synthesis → morning digest
+
+map/
+  hypotheses.json        — structured hypothesis store (backing data)
+  HYPOTHESES.md          — rendered hypothesis map (human-readable)
 ```
 
 Evidence items: `evidence/items/*.json` (schema in `evidence/.schema.md`)
 Vector store: `evidence/chromadb/` (gitignored)
 Digests: `digest/YYYY-MM-DD.md`
-Metrics: `governance/metrics.json` (append-only snapshots)
-Loop entries: `governance/loop/YYYY-MM-DD.md`
 
 ## Key rules
 
