@@ -1,0 +1,18 @@
+{
+  "id": "f62d5bdd-5714-406b-8774-fc527a84682d",
+  "timestamp": "2026-08-20T00:19:22.123777+00:00",
+  "source": "alphasignal",
+  "title": "Engram's Legal Agent Beats Claude Opus 4.8 at One-Tenth the Cost",
+  "url": "https://alphasignal.ai/news/engram-s-legal-agent-beats-claude-opus-4-8-at-one-tenth-the-cost",
+  "summary": "Engram's first research report shows agents that study a law firm ahead of time can beat Opus 4.8 while using 10x less budget per query.",
+  "relevance": null,
+  "tags": [
+    "agents",
+    "post training"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

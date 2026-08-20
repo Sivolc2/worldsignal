@@ -1,0 +1,18 @@
+{
+  "id": "8f74db22-c2e3-4e7e-9876-32acc6924068",
+  "timestamp": "2026-08-20T00:19:22.123580+00:00",
+  "source": "alphasignal",
+  "title": "Artificial Analysis Ranks 11 Search APIs by How Well AI Agents Answer",
+  "url": "https://alphasignal.ai/news/artificial-analysis-ranks-11-search-apis-by-how-well-ai-agents-answer",
+  "summary": "A new leaderboard scores 11 search products from 7 providers on quality, cost, and speed using a shared agent harness and three benchmarks.",
+  "relevance": null,
+  "tags": [
+    "benchmarks",
+    "agents"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "c0227c65-4e3a-4fd0-8554-7eef4e44ad85",
+  "timestamp": "2026-08-20T00:19:22.123441+00:00",
+  "source": "alphasignal",
+  "title": "Anthropic's Claude Designs Drug-Binding Proteins at 35% Hit Rate, Crushing Human Experts",
+  "url": "https://alphasignal.ai/news/anthropic-s-claude-designs-drug-binding-proteins-at-35-hit-rate-crushing-human",
+  "summary": "Claude autonomously designed protein binders against 14 of 15 drug targets with hit rates roughly double the field standard, backed by wet lab validation.",
+  "relevance": null,
+  "tags": [
+    "llms",
+    "open source"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

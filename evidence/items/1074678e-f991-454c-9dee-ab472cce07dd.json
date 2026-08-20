@@ -1,0 +1,18 @@
+{
+  "id": "1074678e-f991-454c-9dee-ab472cce07dd",
+  "timestamp": "2026-08-20T00:19:22.123676+00:00",
+  "source": "alphasignal",
+  "title": "Warp Factories Moves Coding Agents From Laptops to the Cloud",
+  "url": "https://alphasignal.ai/news/warp-factories-moves-coding-agents-from-laptops-to-the-cloud",
+  "summary": "Warp launches open, code-defined infrastructure for running fleets of cloud coding agents across triage, spec, implementation, review, and verification.",
+  "relevance": null,
+  "tags": [
+    "agents",
+    "development"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

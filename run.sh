@@ -13,6 +13,7 @@ ingest() {
   python3 src/ingest_arxiv.py &
   python3 src/ingest_github.py &
   python3 src/ingest_podcasts.py &
+  python3 src/ingest_alphasignal.py &
   wait
   echo "=== Ingestion complete ==="
 }

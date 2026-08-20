@@ -1,0 +1,18 @@
+{
+  "id": "7cb076cd-9eef-4e6e-90f7-96260bd03600",
+  "timestamp": "2026-08-20T00:19:22.123720+00:00",
+  "source": "alphasignal",
+  "title": "Agent Arena Splits Into 3 Categories, Proving No Single Model Wins",
+  "url": "https://alphasignal.ai/news/agent-arena-splits-into-3-categories-proving-no-single-model-wins",
+  "summary": "Agent Arena split its leaderboard into Code, Chat, and Work categories and added per-task cost, revealing a different #1 model in each lane.",
+  "relevance": null,
+  "tags": [
+    "benchmarks",
+    "agents"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

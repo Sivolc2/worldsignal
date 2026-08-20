@@ -1,0 +1,18 @@
+{
+  "id": "0f958fb9-4b92-433d-ae89-6591524b323d",
+  "timestamp": "2026-08-20T00:19:22.123461+00:00",
+  "source": "alphasignal",
+  "title": "Z.ai's GLM-5.3 Tops Open-Weights Leaderboard Using Only Post-Training",
+  "url": "https://alphasignal.ai/news/z-ai-s-glm-5-3-tops-open-weights-leaderboard-using-only-post-training",
+  "summary": "Z.ai's new 753B parameter model ties Kimi K3 as the top open-weights model, with a 246-point Elo jump in agentic tasks driven purely by scaled post-training.",
+  "relevance": null,
+  "tags": [
+    "llms",
+    "benchmarks"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

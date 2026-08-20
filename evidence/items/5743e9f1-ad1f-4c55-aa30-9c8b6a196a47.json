@@ -1,0 +1,18 @@
+{
+  "id": "5743e9f1-ad1f-4c55-aa30-9c8b6a196a47",
+  "timestamp": "2026-08-20T00:19:22.123638+00:00",
+  "source": "alphasignal",
+  "title": "MCP Went Stateless: What Must Change on Your Servers",
+  "url": "https://alphasignal.ai/news/mcp-went-stateless-so-what-your-servers-must-change",
+  "summary": "2026-07-28 drops protocol sessions. A local place_order went 1 to 2 orders unless I sent an order id.",
+  "relevance": null,
+  "tags": [
+    "agents",
+    "development"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

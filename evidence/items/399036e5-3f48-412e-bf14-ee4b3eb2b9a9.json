@@ -1,0 +1,18 @@
+{
+  "id": "399036e5-3f48-412e-bf14-ee4b3eb2b9a9",
+  "timestamp": "2026-08-20T00:19:22.123376+00:00",
+  "source": "alphasignal",
+  "title": "Does Self-Improvement Still Work on an Engineered Agent Harness?",
+  "url": "https://alphasignal.ai/news/does-self-improvement-still-work-on-an-engineered-agent-harness",
+  "summary": "How self-improving agent harnesses can look better in validation than they perform on unseen tasks.",
+  "relevance": null,
+  "tags": [
+    "agents",
+    "development"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

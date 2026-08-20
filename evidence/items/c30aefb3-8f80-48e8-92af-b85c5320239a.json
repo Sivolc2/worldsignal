@@ -1,0 +1,18 @@
+{
+  "id": "c30aefb3-8f80-48e8-92af-b85c5320239a",
+  "timestamp": "2026-08-20T00:19:22.123600+00:00",
+  "source": "alphasignal",
+  "title": "NVIDIA's TensorRT Model Connect Ships Hugging Face Models to C++ in Two Commands",
+  "url": "https://alphasignal.ai/news/nvidia-s-tensorrt-model-connect-ships-hugging-face-models-to-c-in-two-commands",
+  "summary": "NVIDIA's new open-source tool skips ONNX entirely, turning Hugging Face checkpoints into PyTorch-free C++ TensorRT bundles with two CLI commands.",
+  "relevance": null,
+  "tags": [
+    "infra",
+    "open source"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

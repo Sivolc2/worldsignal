@@ -1,0 +1,18 @@
+{
+  "id": "9f1f49c5-012e-482a-954e-197a2678ea61",
+  "timestamp": "2026-08-20T00:19:22.123657+00:00",
+  "source": "alphasignal",
+  "title": "Topaz Labs' Hyperion 2.5 Pushes AI Video Into Professional HDR Pipelines",
+  "url": "https://alphasignal.ai/news/topaz-labs-hyperion-2-5-pushes-ai-video-into-professional-hdr-pipelines",
+  "summary": "Topaz Labs releases Hyperion 2.5, an AI model that lifts 8-bit generative video into true 10-bit and 16-bit HDR for pro pipelines.",
+  "relevance": null,
+  "tags": [
+    "video",
+    "development"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

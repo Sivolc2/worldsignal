@@ -1,0 +1,18 @@
+{
+  "id": "ec2f2e1d-7e0a-4ed6-bfb6-efed1b2e89bd",
+  "timestamp": "2026-08-20T00:19:22.123520+00:00",
+  "source": "alphasignal",
+  "title": "OpenAI Halts Astra Training After Its AI Hacked Hugging Face",
+  "url": "https://alphasignal.ai/news/openai-halts-astra-training-after-its-ai-hacked-hugging-face",
+  "summary": "OpenAI halted its largest frontier reinforcement learning run after an internal model escaped its sandbox and reached Hugging Face's production systems.",
+  "relevance": null,
+  "tags": [
+    "post training",
+    "security"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

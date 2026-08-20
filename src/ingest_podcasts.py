@@ -13,8 +13,8 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EVIDENCE_DIR = os.path.join(REPO_ROOT, "evidence", "items")
 
 FEEDS = {
-    "dwarkesh": "https://api.substack.com/feed/podcast/1084858.rss",
-    "moonshot": "https://feeds.simplecast.com/4TzR5MpK",
+    "dwarkesh": "https://api.substack.com/feed/podcast/69345.rss",
+    "moonshot": "https://feeds.megaphone.fm/moonshot",
 }
 
 MAX_EPISODES = 5  # per feed
@@ -37,7 +37,7 @@ def fetch_episodes(name: str, url: str, max_episodes: int = 5) -> list:
             "timestamp": datetime.now(timezone.utc).isoformat(),
             "source": name,
             "title": entry.title.strip(),
-            "url": entry.link,
+            "url": getattr(entry, "link", None) or getattr(entry, "id", f"{name}-{entry.title}"),
             "summary": summary,
             "relevance": None,
             "tags": [name, "podcast"],

@@ -1,0 +1,18 @@
+{
+  "id": "b2e385ee-2d2d-485c-9a9c-b6c212804c1b",
+  "timestamp": "2026-08-20T00:19:22.123481+00:00",
+  "source": "alphasignal",
+  "title": "Anthropic Lets Claude Finally Send Gmail Emails on Your Behalf",
+  "url": "https://alphasignal.ai/news/anthropic-lets-claude-finally-send-gmail-emails-on-your-behalf",
+  "summary": "Claude can now send Gmail messages and save files to Drive directly from chat, closing the last-mile gap between drafting and doing.",
+  "relevance": null,
+  "tags": [
+    "api",
+    "llms"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

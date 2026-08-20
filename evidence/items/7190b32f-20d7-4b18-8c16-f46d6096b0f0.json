@@ -1,0 +1,18 @@
+{
+  "id": "7190b32f-20d7-4b18-8c16-f46d6096b0f0",
+  "timestamp": "2026-08-20T00:19:22.123620+00:00",
+  "source": "alphasignal",
+  "title": "Perplexity's Computer Jumps Into Your Inbox to Handle Work Automatically",
+  "url": "https://alphasignal.ai/news/perplexity-s-computer-jumps-into-your-inbox-to-handle-work-automatically",
+  "summary": "Perplexity's agent platform now runs from any inbox by CCing computer@perplexity.com, returning deliverables as attachments in the same thread.",
+  "relevance": null,
+  "tags": [
+    "development",
+    "api"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

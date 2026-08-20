@@ -1,0 +1,18 @@
+{
+  "id": "2415d93b-b0de-497c-8b34-33e1c45b8b9d",
+  "timestamp": "2026-08-20T00:19:22.123500+00:00",
+  "source": "alphasignal",
+  "title": "Liquid AI's toktoktok Ships Production Code Without Engineers Reading a Line",
+  "url": "https://alphasignal.ai/news/liquid-ai-s-toktoktok-ships-production-code-without-engineers-reading-a-line",
+  "summary": "Liquid AI open-sourced toktoktok, a production-grade BPE tokenizer trainer written entirely by coding agents inside an iteration loop against real data.",
+  "relevance": null,
+  "tags": [
+    "development",
+    "agents"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

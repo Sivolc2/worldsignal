@@ -80,6 +80,7 @@ Subagents are how the steward gets things done — not just proposed.
    - `python3 src/ingest_arxiv.py`
    - `python3 src/ingest_github.py`
    - `python3 src/ingest_podcasts.py`
+   - `python3 src/ingest_alphasignal.py`
 
 2. **Fix broken sources** — if a source is returning empty or erroring:
    - Dispatch a subagent to research the correct RSS/API endpoint (WebSearch)
@@ -155,6 +156,7 @@ src/
   ingest_arxiv.py      — arXiv cs.AI/CL/LG recent papers
   ingest_github.py     — GitHub trending AI/ML repos via search API
   ingest_podcasts.py   — Dwarkesh + Moonshot via RSS
+  ingest_alphasignal.py — Alpha Signal AI news via RSS
   evidence_store.py    — ChromaDB vector store (sync + query)
   generate_digest.py   — Claude API synthesis → morning digest
 ```

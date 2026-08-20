@@ -1,0 +1,18 @@
+{
+  "id": "8e3fe7f8-6961-40c2-8433-32e28c8a2d7e",
+  "timestamp": "2026-08-20T00:19:22.123740+00:00",
+  "source": "alphasignal",
+  "title": "Anthropic's Claude Code Now Designs UI Mockups Before Writing a Single Line",
+  "url": "https://alphasignal.ai/news/anthropic-s-claude-code-now-designs-ui-mockups-before-writing-a-single-line",
+  "summary": "The new /design skill inside Claude Code generates multiple editable UI mockups as artboards, then hands the chosen one off to code implementation.",
+  "relevance": null,
+  "tags": [
+    "development",
+    "vibe coding"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "e28d0998-b9d1-4360-8c7c-daec2a281594",
+  "timestamp": "2026-08-20T00:19:22.123560+00:00",
+  "source": "alphasignal",
+  "title": "Vercel's AI SDK Ships Code Mode, Cutting Agent Token Use by 99.9%",
+  "url": "https://alphasignal.ai/news/vercel-s-ai-sdk-ships-code-mode-cutting-agent-token-use-by-99-9",
+  "summary": "Vercel's AI SDK adds an experimental Code Mode tool that lets models write sandboxed JS or TS to orchestrate tool calls in a single shot.",
+  "relevance": null,
+  "tags": [
+    "development",
+    "api"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

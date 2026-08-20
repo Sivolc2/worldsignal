@@ -1,0 +1,18 @@
+{
+  "id": "27ec6df0-9648-4a31-aad2-4031d600dcb1",
+  "timestamp": "2026-08-20T00:19:22.123418+00:00",
+  "source": "alphasignal",
+  "title": "Cerebras CS-4 Hits 30x Faster Inference Without Building a New Chip",
+  "url": "https://alphasignal.ai/news/cerebras-cs-4-hits-30x-faster-inference-without-building-a-new-chip",
+  "summary": "Cerebras unveils CS-4 with three overclocked WSE-3 Turbo wafers, delivering 750 PFLOPS and up to 30x faster inference than GPU systems.",
+  "relevance": null,
+  "tags": [
+    "gpus",
+    "infra"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}

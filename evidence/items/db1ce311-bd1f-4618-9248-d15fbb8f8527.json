@@ -1,0 +1,18 @@
+{
+  "id": "db1ce311-bd1f-4618-9248-d15fbb8f8527",
+  "timestamp": "2026-08-20T00:19:22.123758+00:00",
+  "source": "alphasignal",
+  "title": "Google's PhotoScan Reads Insulin Resistance From a Smartphone Photo",
+  "url": "https://alphasignal.ai/news/google-s-photoscan-reads-insulin-resistance-from-a-smartphone-photo",
+  "summary": "Google Research introduces PhotoScan, a deep learning system that estimates body fat distribution from smartphone photos and predicts insulin resistance almost as accurately as DXA scans.",
+  "relevance": null,
+  "tags": [
+    "image",
+    "benchmarks"
+  ],
+  "cluster": null,
+  "hypotheses": [],
+  "direction": "neutral",
+  "shared": false,
+  "steward_reaction": null
+}
